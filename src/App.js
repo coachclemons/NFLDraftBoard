@@ -24,7 +24,7 @@ const players = [
     notes: "Separation and hands are genuinely elite traits that translate immediately at the NFL level.", flags: ["⚠️ RAC Concern"],
   },
   {
-    rank: 4, name: "Chris Brazzle II", school: "Tennessee", height: "6'4\"", weight: "198 lbs", fortyTime: "4.37",
+    rank: 3, name: "Chris Brazzle II", school: "Tennessee", height: "6'4\"", weight: "198 lbs", fortyTime: "4.37",
     grade: "A", tier: "Elite", scouted: true,
     recentStats: "2023: 44 rec · 711 yds · 5 TD  |  2024: 29 rec · 333 yds · 2 TD  |  2025: 62 rec · 1,017 yds · 9 TD",
     industryView: "A size mismatch problem with upside to be better as he gains experience. Showed excellent size and speed at the combine. Industry projects 3rd-4th round — significantly undervalued on most boards.",
@@ -33,6 +33,33 @@ const players = [
     concerns: ["Defenders often played off — could limit contested catch data"],
     comp: null, stats: { Speed: 9, RouteRunning: 9, Hands: 9, RAC: null },
     notes: "His release alone can absolutely burn you. Committed to his routes without overcomplicating them.", flags: [],
+  },
+  {
+    rank: 4, name: "Omar Cooper", school: "Indiana", height: "6'0 1/8\"", weight: "199 lbs", fortyTime: "4.42",
+    grade: "A-", tier: "1st Round", scouted: true,
+    extra: "30 1/4\" arm | 9 5/8\" hands | 37\" vert | 1.55 10-yd split",
+    recentStats: "2024: 28 rec · 594 yds · 7 TD  |  2025: 69 rec · 937 yds · 13 TD  |  20 TDs since start of 2024",
+    industryView: "Shifty and dangerous receiver for Indiana and a reliable target. Multiple team sources had Cooper graded on Day 2. 13 TDs and 4.42 speed make him a legitimate Day 2 target.",
+    summary: "Elite route runner and a freak with the ball in his hands. Welcomes physical play and wins through contact — versatile enough to be more than a slot option. Creates lateral separation when beating press. Digs hard through the drive phase before snapping his head around. First and second acceleration catches defenders completely off-guard. Explosive leaper who can pluck high throws at their apex. Rugged runner who can break free from multiple tacklers.",
+    strengths: [
+      "Elite route runner — one of the best in this class",
+      "Freak with the ball in his hands — dangerous every time he touches it",
+      "Welcomes physical play — wins through contact, not just speed",
+      "Creates lateral separation vs press coverage",
+      "Digs hard through drive phase before snapping head around — DBs can't jump the route",
+      "First and second gear acceleration catches defenders off-guard",
+      "Explosive leaper — 37\" vertical, plucks high throws at their apex",
+      "Rugged runner after the catch — breaks free from multiple tacklers",
+      "20 TDs since start of 2024 — elite production efficiency",
+      "Versatile — more than just a slot receiver",
+    ],
+    concerns: [
+      "6'0\" 199 lbs — not a big body receiver, size will be questioned at the next level",
+      "30 1/4\" arm length is on the shorter side",
+    ],
+    comp: null, stats: { Speed: 9, RouteRunning: 10, Hands: 9, RAC: 9 },
+    notes: "20 TDs in two seasons, 4.42 speed, 37\" vertical, and elite route running. The acceleration is the separator — first and second gear are both elite. Significantly undervalued by industry if Day 2 is the consensus.",
+    flags: [],
   },
   {
     rank: 5, name: "Denzel Boston", school: "Washington", height: "6'4\"", weight: "212 lbs", fortyTime: "4.49*",
@@ -46,7 +73,40 @@ const players = [
     notes: "Knows how to use his body. Gets the corner going one way then breaks into the actual route consistently.", flags: [],
   },
   {
-    rank: 6, name: "Ted Hurst", school: "Georgia State", height: "6'4\"", weight: "206 lbs", fortyTime: "4.42",
+    rank: 6, name: "De'Zhaun Stribling", school: "Mississippi", height: "6'2 1/8\"", weight: "207 lbs", fortyTime: "4.36",
+    grade: "B+", tier: "2nd/3rd Round", scouted: true,
+    extra: "31 5/8\" arm | 10\" hands | 36\" vert | 10'7\" broad | 1.53 10-yd split",
+    recentStats: "2025: 55 rec · 811 yds · 6 TD",
+    industryView: "Projected Day 2-3. Size-speed combo at 6'2\" and 4.36 will attract attention. Tested well at the combine.",
+    summary: "Good explosiveness with great ability to avoid being pressed — corners keep trying to press him but he has such a great release they rarely get their hands on him. Once he gets on the outside shoulder he creates enough separation on the catch consistently. Uses his hands extremely well, rarely catches with his body and goes to the ball rather than letting it come back to him. Patient on deep balls. Justin Jefferson route running vibes on his double move — plants and accelerates without overselling it. Very explosive overall. Fights hard for 3-5 extra yards after the catch.",
+    strengths: [
+      "4.36 speed — elite for his size",
+      "Great release — corners can't get their hands on him despite repeatedly trying to press",
+      "Uses his hands well on routes to create separation without drawing flags",
+      "Goes to the ball with his hands — rarely body catches",
+      "Patient on deep balls — great extension on poorly thrown passes",
+      "Justin Jefferson vibes on double move — plants and accelerates without overselling",
+      "Pushes to the defender's outside shoulder before cutting back inside — great awareness",
+      "Fights for 3-5 extra yards after the catch consistently",
+      "Tested against good corners and still made plays",
+      "Good quickness after the catch to get upfield",
+      "Willing blocker — physical and keeps defenders engaged when he commits",
+    ],
+    concerns: [
+      "A little choppy when breaking routes trying to get off his man",
+      "Takes a few too many steps on curl route break",
+      "Can take plays off — when he turns the gas on he looks elite, but not always on",
+      "Didn't see him often extending the play when his route doesn't originally work",
+      "Go routes became predictable — team leaned on them too heavily which exposed him",
+      "Not as physical in pure jump ball situations — relies more on speed and quickness",
+    ],
+    comp: "Justin Jefferson (route running style)",
+    stats: { Speed: 9, RouteRunning: 8, Hands: 9, RAC: 6 },
+    notes: "The Jefferson comp on the double move is real — plants and accelerates without the big sell. Only one drop in 2025 on 57 targets is elite hands reliability. The motor concern is the one thing keeping this grade from being higher.",
+    flags: ["⚠️ Effort Concern"],
+  },
+  {
+    rank: 7, name: "Ted Hurst", school: "Georgia State", height: "6'4\"", weight: "206 lbs", fortyTime: "4.42",
     grade: "A-", tier: "1st Round", scouted: true,
     recentStats: "2025: 71 rec · 1,004 yds · 6 TD",
     industryView: "Earned a Senior Bowl invitation. Good size and length for taking on cornerbacks. Respectable at the Senior Bowl and ran well at the combine. Projected 4th-6th round by industry — significantly undervalued on our board.",
@@ -77,16 +137,73 @@ const players = [
     flags: ["⚠️ Competition Level"],
   },
   {
-    rank: 7, name: "Malachi Lemon", school: "USC", height: "5'11\"", weight: "192 lbs", fortyTime: "4.46*",
-    grade: "B+", tier: "1st Round", scouted: true,
+    rank: 8, name: "Malachi Lemon", school: "USC", height: "5'11 1/8\"", weight: "192 lbs", fortyTime: "4.46*",
+    grade: "A-", tier: "1st Round", scouted: true,
+    extra: "30 1/2\" arm | 8 3/4\" hands",
     recentStats: "2024: 52 rec · 764 yds · 3 TD  |  2025: 79 rec · 1,156 yds · 11 TD",
-    industryView: "Played well and been very productive. Despite not being big, has done a nice job of winning contested catches. Could fit as a slot receiver at the NFL level. Hurt himself with poor combine interviews. 1st round projection.",
-    summary: "Notes pending rewatch.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
-    notes: "Full evaluation pending rewatch.", flags: ["🔄 Rewatch Pending"],
+    industryView: "Could come in and be one of the top 10 slots in the league on Day 1 of camp. Great hands and fiercely competitive. 1st round projection. Hurt himself with poor combine interviews.",
+    summary: "Efficient press release with early acceleration to bypass coverage. Manipulates defenders out of position with route acumen and snaps off out-breaking routes at crisp angles. Ball-tracking adjustments and catch timing are elite. Ridiculous grip strength once the football hits his hands. Elevates toughness and focus when the catch is contested. Love his effort and quick area burst and ability to go up and make big catches despite his size. Willing run blocker who gives legitimate effort — more willing than much bigger receivers.",
+    strengths: [
+      "Efficient press release with early acceleration — bypasses coverage cleanly",
+      "Manipulates defenders out of position with route acumen",
+      "Snaps off out-breaking routes at crisp angles",
+      "Above-average burst out of turns to gain separation",
+      "Elite ball-tracking adjustments and catch timing",
+      "Ridiculous grip strength — once it hits his hands it's not coming out",
+      "Elevates toughness and focus on contested catches",
+      "Good patience with late catch adjustments to save catch space",
+      "Consistent boundary awareness — drops both feet in bounds near the sideline",
+      "Willing run blocker who gives legitimate effort",
+      "Quick area burst and ability to go up for big catches despite size",
+      "Fiercely competitive — effort is never a question",
+    ],
+    concerns: [
+      "Appears quicker than fast on vertical routes — not a burner down the field",
+      "Can be a little slow disengaging once captured underneath",
+      "Relatively ordinary after the catch — won't wow you with RAC",
+      "Needs runway to break off comebacks out of the drive phase",
+      "8 3/4\" hands on the smaller side — grip strength compensates but worth noting",
+      "Poor combine interviews hurt his stock",
+    ],
+    comp: null,
+    stats: { Speed: 7, RouteRunning: 9, Hands: 9, RAC: 6 },
+    notes: "Top 10 slot on Day 1 is a real projection — the route running and hands are that good. The combine interview concerns are a non-football issue that shouldn't affect on-field grade but will affect where teams take him.",
+    flags: [],
   },
   {
-    rank: 8, name: "Zachariah Branch", school: "Georgia", height: "5'9\"", weight: "177 lbs", fortyTime: "4.35",
+    rank: 9, name: "KC Concepcion", school: "Texas A&M", height: "5'11\"", weight: "196 lbs", fortyTime: "4.64",
+    grade: "B", tier: "2nd/3rd Round", scouted: true,
+    recentStats: "2023: 71 rec · 839 yds · 10 TD + 320 rush yds (NC State)  |  2024: 53 rec · 460 yds · 6 TD  |  2025: 61 rec · 919 yds · 9 TD + 2 punt return TDs",
+    industryView: "Quick and shifty receiver. Returned two punts for touchdowns in 2025. Showed more production at A&M. Industry projects 1st-3rd round.",
+    summary: "Probably the smoothest route runner in this draft. Quick bursts in his routes — looks more quick than fast. Showed a great release against Notre Dame, worked well going inside before breaking back out. Runs clean routes with no wasted steps and keeps an even speed on out routes without slowing down. Almost so smooth the defender has no tell, which helps him create separation very easily. Broke his defender so bad on a double move vs Notre Dame the DB fell belly first like a slip n slide. Elite change of pace going deep — his release after changing speed is excellent.",
+    strengths: [
+      "Probably the smoothest route runner in the draft",
+      "Quick explosive bursts — acceleration is elite even if top speed is not",
+      "Clean routes with zero wasted steps",
+      "Keeps even speed on out routes — doesn't tip his hand",
+      "Defender has no tell — creates separation almost without trying",
+      "Excellent release after changing pace going deep",
+      "Broke a Notre Dame DB so badly on a double move he fell belly first",
+      "Really good at creating separation in his routes",
+      "Quick release vs Notre Dame — looked sharp vs legitimate competition",
+      "Some flashes of physicality in the block when he engages",
+      "Some explosiveness after the catch",
+    ],
+    concerns: [
+      "4.64 — slower than you want, acceleration masks it but top speed will be tested in the NFL",
+      "Catches way too much with his body — about 20 career drops as a result",
+      "Can struggle to get open with contact — may not hold up against physical press coverage",
+      "Inconsistent blocker — often just stands in front of the defender without engaging",
+      "Didn't make as many big plays after the catch as the explosiveness would suggest",
+      "Below average hands — catching with the body at the NFL level will cost him",
+    ],
+    comp: null,
+    stats: { Speed: 8, RouteRunning: 9, Hands: 4, RAC: 6 },
+    notes: "The route running is genuinely elite — smoothest in the class is a real statement. But 20 career drops and consistent body catching is a major concern at the next level where windows are tighter. If he fixes his hands he becomes a real problem for defenses.",
+    flags: ["⚠️ Body Catcher", "⚠️ Drops"],
+  },
+  {
+    rank: 10, name: "Zachariah Branch", school: "Georgia", height: "5'9\"", weight: "177 lbs", fortyTime: "4.35",
     grade: "B+", tier: "1st Round", scouted: true,
     recentStats: "2024: 47 rec · 503 yds · 1 TD (USC)  |  2025: 81 rec · 811 yds · 6 TD (Georgia)",
     industryView: "Showed big-play ability with the Bulldogs, stretching defenses with explosive speed. Outstanding after the catch with elusiveness and speed to take any touch to the end zone. Lacks size but is an explosive playmaker with burst as a route-runner. Projected 2nd-3rd round.",
@@ -97,134 +214,7 @@ const players = [
     notes: "Size is a recurring burn spot in the draft. Hard to ignore especially at his weight.", flags: ["⚠️ Size Concern"],
   },
   {
-    rank: 9, name: "Germie Bernard", school: "Alabama", height: "6'1\"", weight: "206 lbs", fortyTime: "4.48",
-    grade: "B", tier: "2nd Round", scouted: true,
-    recentStats: "2022: 7 rec · 128 yds · 2 TD  |  2023: 34 rec · 419 yds · 2 TD  |  2024: 50 rec · 794 yds · 2 TD  |  2025: 64 rec · 862 yds · 7 TD",
-    industryView: "Played well in 2025 with clutch plays for Alabama. Has the upside to produce more in the NFL. Projected 2nd-3rd round.",
-    extra: "32.5\" Vert | 1.52 10-yd split | 9 7/8\" hands | 30 3/8\" arm",
-    summary: "On a team that struggled with drops, he hauled in 60+ catches — went to him when they needed a reliable option. Quick first juke after the catch, combined with thick body, makes the first tackle tough.",
-    strengths: ["Reliable — go-to option when team needed a catch","Really good vision after the catch — used at RB at times","Thicker body helps break tackles","Quick, effective first juke after the catch","Decent stiff arm","Catches with his hands, not his body"],
-    concerns: ["Doesn't come off as super explosive","Rounds his routes — though often played vs zone","Not a jump ball guy for a 6'1\" receiver","Decent but not great blocker"],
-    comp: "Better version of Savion Williams", stats: { Speed: null, RouteRunning: 5, Hands: 7, RAC: 8 },
-    notes: "Mini juke + thick body = harder first tackle than it looks. Not sexy but effective.", flags: [],
-  },
-  {
-    rank: 11, name: "Antonio Williams", school: "Clemson", height: "6'0\"", weight: "187 lbs", fortyTime: "4.41",
-    grade: "B", tier: "2nd Round", scouted: true,
-    recentStats: "2022: 56 rec · 604 yds · 4 TD  |  2023: 21 rec · 208 yds · 2 TD  |  2024: 75 rec · 904 yds · 11 TD  |  2025: 55 rec · 604 yds · 4 TD",
-    industryView: "Has enough size and natural talent as a route-runner. Showed speed at the combine. Dealt with early injuries in 2025. Projected 2nd-3rd round.",
-    extra: "30 3/4\" arm | 9 1/4\" hands",
-    summary: "Very twitchy and quick, gets to top speed fast. Used a lot in the screen game — drags, slants, short area stuff. Clearly capable down the field but wasn't asked to do it much.",
-    strengths: ["Catches exceptionally well with his hands — great range","Very twitchy and quick, gets to top speed quickly","Great at getting upfield after the catch","Quick get off","When he turns on the jets he can make people miss"],
-    concerns: ["Sometimes choppy feet on route breaks — less effective","Doesn't make as many people miss as twitchiness would suggest","More speed-based evasion than moves-based"],
-    comp: "Josh Downs", stats: { Speed: 7, RouteRunning: 7, Hands: 8, RAC: 6 },
-    notes: "Mostly used in short area but has shown capability down the field. Josh Downs comp in play style.", flags: [],
-  },
-  {
-    rank: 12, name: "Malachi Fields", school: "Notre Dame", height: "6'5\"", weight: "218 lbs", fortyTime: "4.61",
-    grade: "B-", tier: "2nd/3rd Round", scouted: true,
-    recentStats: "2023: 58 rec · 811 yds · 5 TD  |  2024: 55 rec · 808 yds · 5 TD  |  2025: 36 rec · 630 yds · 5 TD",
-    industryView: "Big receiver and solid contributor for Notre Dame. Dangerous on 50-50 catches, a red zone weapon. Helped himself with a strong Senior Bowl week. Hurt himself with a slow combine 40. Could be a safe day-two pick to develop into a solid contributor.",
-    extra: "36 rec | 630 yds | 5 TDs",
-    summary: "Big body receiver with beautiful hands on contested catches. Hard to press — actually looked faster when defenders tried to press him. Good red zone build.",
-    strengths: ["Beautiful hands on contested catches — finesseful, makes the grab consistently","Runs a really nice curl route (8/10 on curls specifically)","Hard to press — actually looked faster when pressed","Doesn't waste time trying to break down the DB — steps and goes","Legitimate red zone target given size and jump ball ability","One-handed grab vs Pittsburgh — legit highlight"],
-    concerns: ["Low early acceleration — 4.61 shows on film","Looks lumbering in stride, slight off-balance","Slight hesitation on release off the line","Slant/out/in routes not explosive","Limited RAC — won't wow you","Only 36 catches in 2025 — hints at usage limitations"],
-    comp: "Michael Pittman (hands and build)", stats: { Speed: 4, RouteRunning: 6, Hands: 8, RAC: 5 },
-    notes: "Curl route specialist with legit hands. Speed and early acceleration are real concerns at the next level.", flags: ["⚠️ Speed Concern"],
-  },
-  {
-    rank: 13, name: "Skyler Bell", school: "Connecticut", height: "6'0\"", weight: "192 lbs", fortyTime: "4.40",
-    grade: "C+", tier: "Day 3", scouted: true,
-    recentStats: "2025: 101 rec · 1,278 yds · 13 TD",
-    industryView: "Productive for UConn with over 100 catches. A gritty receiver who could fit as a slot receiver in the NFL. Helped himself with a fast 40 at the combine. Projected 4th-6th round.",
-    summary: "Played mostly smaller schools — big competition question mark. Good hands — 20 of 37 contested catches over last two years (54% rate — legitimate regardless of competition level).",
-    strengths: ["Good hands — 54% contested catch rate over 2 years","Made impressive one-handed grabs"],
-    concerns: ["Played mostly smaller schools — competition level question mark","Not crispy route running","Too choppy off the line","Not super strong, skinny build","Not jump-off-screen fast in pads"],
-    comp: null, stats: { Speed: 5, RouteRunning: 5, Hands: 9, RAC: 6 },
-    notes: "Level of competition, build, and explosiveness are all question marks at the next level.", flags: ["⚠️ Competition Level","⚠️ Projection Risk"],
-  },
-  {
-    rank: 14, name: "CJ Daniels", school: "Miami", height: "6'2\"", weight: "225 lbs", fortyTime: "4.58",
-    grade: "C+", tier: "Day 3", scouted: true,
-    recentStats: "2023: 55 rec · 1,067 yds · 10 TD (Liberty)  |  2024: 42 rec · 480 yds (LSU)  |  2025: 50 rec · 557 yds · 7 TD (Miami)",
-    industryView: "Projected 4th-6th round. Put up big numbers at Liberty and has been a consistent producer across three programs.",
-    summary: "Efficient route runner — knows exactly what he is doing. Great hands in traffic. One-handed grab vs Notre Dame. Good red zone target. 4.58 will hurt his stock.",
-    strengths: ["Efficient route runner — 9/10","Great hands in traffic, catches with his hands","Good red zone target","Surprisingly quick off the line despite relaxed stance","One-handed grab vs Notre Dame — legit competition moment"],
-    concerns: ["4.58 40 time will hurt draft stock significantly","Not a RAC guy — won't make many people miss"],
-    comp: null, stats: { Speed: 6, RouteRunning: 9, Hands: 7, RAC: 6 },
-    notes: "Tape says more than the stopwatch. 4.58 is going to be hard to overcome on draft day.", flags: ["⚠️ Speed Concern"],
-  },
-  {
-    rank: 15, name: "Chris Bell", school: "Louisville", height: "6'2\"", weight: "222 lbs", fortyTime: "4.50*",
-    grade: "C", tier: "Camp Body", scouted: true,
-    recentStats: "2024: 43 rec · 737 yds · 4 TD  |  2025: 72 rec · 917 yds · 6 TD (late ACL tear)",
-    industryView: "Had 72 catches and 917 yards but suffered a late-season ACL tear. Has makeup concerns and teams wonder about playbook learning ability. May need a redshirt rookie season to recover. Projected 2nd-3rd round by industry.",
-    summary: "Good size and body. Has good speed once he gets going. Nothing really pops on film — no standout trait that separates him.",
-    strengths: ["Good size and body for the position","Has good speed once he gets going"],
-    concerns: ["Catches with his body way too much — consistent concern at the NFL level","Rounds routes slightly","No standout trait on film","Late-season ACL tear — recovery timeline unknown"],
-    comp: null, stats: { Speed: 6, RouteRunning: 5, Hands: 5, RAC: 5 },
-    notes: "Camp body / depth piece unless something shows up on rewatch. ACL adds another question mark.", flags: ["⚠️ Body Catcher","⚠️ ACL Injury"],
-  },
-  {
-    rank: 16, name: "KC Concepcion", school: "Texas A&M", height: "5'11\"", weight: "196 lbs", fortyTime: "4.64",
-    grade: "D+", tier: "Avoid", scouted: true,
-    recentStats: "2023: 71 rec · 839 yds · 10 TD + 320 rush yds (NC State)  |  2024: 53 rec · 460 yds · 6 TD  |  2025: 61 rec · 919 yds · 9 TD + 2 punt return TDs",
-    industryView: "Quick and shifty receiver. Returned two punts for touchdowns in 2025. Showed more production at A&M. Industry projects 1st-3rd round — significantly more bullish than our board.",
-    summary: "Honestly underwhelming on film overall. Doesn't have top end speed. Worked as a punt returner but game didn't really translate on the field.",
-    strengths: ["Experience as a punt returner — returned 2 for TDs in 2025","Shifty and quick"],
-    concerns: ["Expected more explosiveness — it isn't there","Doesn't have top end speed for his size","No standout trait that makes you want to prioritize him","4.64 — below average and it shows on film"],
-    comp: null, stats: { Speed: 4, RouteRunning: 4, Hands: 5, RAC: 5 },
-    notes: "WR4 ceiling at best in the NFL. Would avoid drafting early — nothing here that justifies early round investment.", flags: ["⚠️ Avoid Early"],
-  },
-  // ===== NEW — PLACEHOLDER RANKINGS =====
-  {
-    rank: 3, name: "Omar Cooper", school: "Indiana", height: "6'0 1/8\"", weight: "199 lbs", fortyTime: "4.42",
-    grade: "A-", tier: "1st Round", scouted: true,
-    extra: "30 1/4\" arm | 9 5/8\" hands | 37\" vert | 1.55 10-yd split",
-    recentStats: "2024: 28 rec · 594 yds · 7 TD  |  2025: 69 rec · 937 yds · 13 TD  |  20 TDs since start of 2024",
-    industryView: "Shifty and dangerous receiver for Indiana and a reliable target. Multiple team sources had Cooper graded on Day 2. 13 TDs and 4.42 speed make him a legitimate Day 2 target.",
-    summary: "Elite route runner and a freak with the ball in his hands. Welcomes physical play and wins through contact — versatile enough to be more than a slot option. Creates lateral separation when beating press. Digs hard through the drive phase before snapping his head around. First and second acceleration catches defenders completely off-guard. Explosive leaper who can pluck high throws at their apex. Rugged runner who can break free from multiple tacklers.",
-    strengths: [
-      "Elite route runner — one of the best in this class",
-      "Freak with the ball in his hands — dangerous every time he touches it",
-      "Welcomes physical play — wins through contact, not just speed",
-      "Creates lateral separation vs press coverage",
-      "Digs hard through drive phase before snapping head around — DBs can't jump the route",
-      "First and second gear acceleration catches defenders off-guard",
-      "Explosive leaper — 37\" vertical, plucks high throws at their apex",
-      "Rugged runner after the catch — breaks free from multiple tacklers",
-      "20 TDs since start of 2024 — elite production efficiency",
-      "Versatile — more than just a slot receiver",
-    ],
-    concerns: [
-      "6'0\" 199 lbs — not a big body receiver, size will be questioned at the next level",
-      "30 1/4\" arm length is on the shorter side",
-    ],
-    comp: null,
-    stats: { Speed: 9, RouteRunning: 10, Hands: 9, RAC: 9 },
-    notes: "20 TDs in two seasons, 4.42 speed, 37\" vertical, and elite route running. The acceleration is the separator — first and second gear are both elite. Significantly undervalued by industry if Day 2 is the consensus.",
-    flags: [],
-  },
-  {
-    rank: 17, name: "Ja'Kobi Lane", school: "USC", height: "6'4\"", weight: "200 lbs", fortyTime: "4.47",
-    grade: "B", tier: "2nd/3rd Round", scouted: false,
-    recentStats: "2024: 43 rec · 525 yds · 12 TD  |  2025: 49 rec · 745 yds · 4 TD",
-    industryView: "Big receiver dangerous on 50-50 passes. Excellent red zone weapon — 12 TDs in 2024. Had a solid 40 at the combine to help himself. Projected 2nd-4th round.",
-    summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
-    notes: "12 red zone TDs in 2024 is a standout number. 6'4\" and 4.47 is an appealing combo.", flags: ["🔄 Rewatch Pending"],
-  },
-  {
-    rank: 18, name: "Deion Burks", school: "Oklahoma", height: "5'10\"", weight: "180 lbs", fortyTime: "4.30",
-    grade: "B-", tier: "Day 3", scouted: false,
-    recentStats: "2022–23: 63 rec · 778 yds · 7 TD (PUR)  |  2024: 31 rec · 245 yds · 3 TD (OU)  |  2025: 57 rec · 620 yds · 4 TD",
-    industryView: "Fast and dynamic receiver. Team sources say fast, tough, blocks hard, and has upside. Helped himself with an excellent 4.30 combine 40. Projected 3rd-4th round.",
-    summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
-    notes: "4.30 is elite speed. Production dipped at Oklahoma after Purdue — worth the rewatch.", flags: ["🔄 Rewatch Pending"],
-  },
-  {
-    rank: 10, name: "Elijah Sarratt", school: "Indiana", height: "6'2.5\"", weight: "210 lbs", fortyTime: "4.42*",
+    rank: 11, name: "Elijah Sarratt", school: "Indiana", height: "6'2.5\"", weight: "210 lbs", fortyTime: "4.42*",
     grade: "B", tier: "2nd/3rd Round", scouted: true,
     recentStats: "2022: 42 rec · 700 yds · 13 TD (SFU)  |  2023: 82 rec · 1,191 yds · 8 TD (JMU)  |  2024: 53 rec · 957 yds · 8 TD · 18.1 ypc  |  2025: 65 rec · 830 yds · 15 TD",
     industryView: "Made big plays for Indiana with 8 TDs and 18.1 yards per catch average in 2024. Followed up with 15 TDs in 2025. Projected 3rd-4th round.",
@@ -262,7 +252,201 @@ const players = [
     flags: ["⚠️ Separation Concern", "⚠️ QB Dependent"],
   },
   {
-    rank: 19, name: "Caleb Douglas", school: "Texas Tech", height: "6'4\"", weight: "206 lbs", fortyTime: "4.39",
+    rank: 12, name: "Germie Bernard", school: "Alabama", height: "6'1\"", weight: "206 lbs", fortyTime: "4.48",
+    grade: "B", tier: "2nd Round", scouted: true,
+    recentStats: "2022: 7 rec · 128 yds · 2 TD  |  2023: 34 rec · 419 yds · 2 TD  |  2024: 50 rec · 794 yds · 2 TD  |  2025: 64 rec · 862 yds · 7 TD",
+    industryView: "Played well in 2025 with clutch plays for Alabama. Has the upside to produce more in the NFL. Projected 2nd-3rd round.",
+    extra: "32.5\" Vert | 1.52 10-yd split | 9 7/8\" hands | 30 3/8\" arm",
+    summary: "On a team that struggled with drops, he hauled in 60+ catches — went to him when they needed a reliable option. Quick first juke after the catch, combined with thick body, makes the first tackle tough.",
+    strengths: ["Reliable — go-to option when team needed a catch","Really good vision after the catch — used at RB at times","Thicker body helps break tackles","Quick, effective first juke after the catch","Decent stiff arm","Catches with his hands, not his body"],
+    concerns: ["Doesn't come off as super explosive","Rounds his routes — though often played vs zone","Not a jump ball guy for a 6'1\" receiver","Decent but not great blocker"],
+    comp: "Better version of Savion Williams", stats: { Speed: null, RouteRunning: 5, Hands: 7, RAC: 8 },
+    notes: "Mini juke + thick body = harder first tackle than it looks. Not sexy but effective.", flags: [],
+  },
+  {
+    rank: 13, name: "Antonio Williams", school: "Clemson", height: "6'0\"", weight: "187 lbs", fortyTime: "4.41",
+    grade: "B", tier: "2nd Round", scouted: true,
+    recentStats: "2022: 56 rec · 604 yds · 4 TD  |  2023: 21 rec · 208 yds · 2 TD  |  2024: 75 rec · 904 yds · 11 TD  |  2025: 55 rec · 604 yds · 4 TD",
+    industryView: "Has enough size and natural talent as a route-runner. Showed speed at the combine. Dealt with early injuries in 2025. Projected 2nd-3rd round.",
+    extra: "30 3/4\" arm | 9 1/4\" hands",
+    summary: "Very twitchy and quick, gets to top speed fast. Used a lot in the screen game — drags, slants, short area stuff. Clearly capable down the field but wasn't asked to do it much.",
+    strengths: ["Catches exceptionally well with his hands — great range","Very twitchy and quick, gets to top speed quickly","Great at getting upfield after the catch","Quick get off","When he turns on the jets he can make people miss"],
+    concerns: ["Sometimes choppy feet on route breaks — less effective","Doesn't make as many people miss as twitchiness would suggest","More speed-based evasion than moves-based"],
+    comp: "Josh Downs", stats: { Speed: 7, RouteRunning: 7, Hands: 8, RAC: 6 },
+    notes: "Mostly used in short area but has shown capability down the field. Josh Downs comp in play style.", flags: [],
+  },
+  {
+    rank: 14, name: "Deion Burks", school: "Oklahoma", height: "5'9 3/4\"", weight: "180 lbs", fortyTime: "4.30",
+    grade: "B", tier: "2nd/3rd Round", scouted: true,
+    extra: "29 3/8\" arm | 9 1/2\" hands | 42.5\" vert | 10'11\" broad | 1.49 10-yd split | 26 bench",
+    recentStats: "2022–23: 63 rec · 778 yds · 7 TD (PUR)  |  2024: 31 rec · 245 yds · 3 TD (OU)  |  2025: 57 rec · 620 yds · 4 TD",
+    industryView: "Fast and dynamic receiver. Team sources say fast, tough, blocks hard, and has upside. Helped himself with an excellent 4.30 combine 40. Projected 3rd-4th round.",
+    summary: "Smooth get off — a real threat after the catch with good vision and quick acceleration. Not afraid to put his head down and fight. Does a good job working into the QB's vision to extend plays. Good quick route runner but not elite. His acceleration is basically 4/4 speed from the very first step which is pretty wild — most of his broken tackles come from that acceleration catching defenders off guard. Great release when the DB is pressing. Runs a smooth out route. Showed many pro level catches getting both feet in bounds even on difficult outstretched grabs.",
+    strengths: [
+      "4.30 speed — elite, acceleration from step one is basically full speed",
+      "42.5\" vertical and 10'11\" broad jump — freak athleticism",
+      "1.49 10-yard split — elite first step explosiveness",
+      "Real threat after the catch — good vision, no wasted steps, not afraid to put his head down",
+      "Quick acceleration after the catch catches defenders completely off guard",
+      "Great release when the DB is pressing",
+      "Smooth out route runner",
+      "Works well into the QB's vision to extend plays",
+      "Catches well with his hands — showed pro-level catches getting both feet in bounds",
+      "26 bench reps — deceptively strong for his size",
+    ],
+    concerns: [
+      "5'9 3/4\" and 180 lbs — size and physicality will be tested at the next level",
+      "29 3/8\" arm length is very short — could struggle with press and hand fighting",
+      "Doesn't make as many people miss in the open field as his athleticism suggests",
+      "Sometimes catches with his body",
+      "Route running is good but not elite — not going to win on every route concept",
+      "Ability to handle physical press coverage at the NFL level is a real question",
+    ],
+    comp: null,
+    stats: { Speed: 10, RouteRunning: 7, Hands: 7, RAC: 8 },
+    notes: "The first-step acceleration is genuinely special — 4/4 speed from step one is not something you see often. The size concern is real but the athleticism profile (4.30, 42.5\" vert, 26 bench) suggests he can handle more contact than his frame implies. Right scheme with space to operate could unlock something.",
+    flags: ["⚠️ Size Concern"],
+  },
+  {
+    rank: 15, name: "Malachi Fields", school: "Notre Dame", height: "6'5\"", weight: "218 lbs", fortyTime: "4.61",
+    grade: "B-", tier: "2nd/3rd Round", scouted: true,
+    recentStats: "2023: 58 rec · 811 yds · 5 TD  |  2024: 55 rec · 808 yds · 5 TD  |  2025: 36 rec · 630 yds · 5 TD",
+    industryView: "Big receiver and solid contributor for Notre Dame. Dangerous on 50-50 catches, a red zone weapon. Helped himself with a strong Senior Bowl week. Hurt himself with a slow combine 40. Could be a safe day-two pick to develop into a solid contributor.",
+    extra: "36 rec | 630 yds | 5 TDs",
+    summary: "Big body receiver with beautiful hands on contested catches. Hard to press — actually looked faster when defenders tried to press him. Good red zone build.",
+    strengths: ["Beautiful hands on contested catches — finesseful, makes the grab consistently","Runs a really nice curl route (8/10 on curls specifically)","Hard to press — actually looked faster when pressed","Doesn't waste time trying to break down the DB — steps and goes","Legitimate red zone target given size and jump ball ability","One-handed grab vs Pittsburgh — legit highlight"],
+    concerns: ["Low early acceleration — 4.61 shows on film","Looks lumbering in stride, slight off-balance","Slight hesitation on release off the line","Slant/out/in routes not explosive","Limited RAC — won't wow you","Only 36 catches in 2025 — hints at usage limitations"],
+    comp: "Michael Pittman (hands and build)", stats: { Speed: 4, RouteRunning: 6, Hands: 8, RAC: 5 },
+    notes: "Curl route specialist with legit hands. Speed and early acceleration are real concerns at the next level.", flags: ["⚠️ Speed Concern"],
+  },
+  {
+    rank: 16, name: "Skyler Bell", school: "Connecticut", height: "6'0\"", weight: "192 lbs", fortyTime: "4.40",
+    grade: "C+", tier: "Day 3", scouted: true,
+    recentStats: "2025: 101 rec · 1,278 yds · 13 TD",
+    industryView: "Productive for UConn with over 100 catches. A gritty receiver who could fit as a slot receiver in the NFL. Helped himself with a fast 40 at the combine. Projected 4th-6th round.",
+    summary: "Played mostly smaller schools — big competition question mark. Good hands — 20 of 37 contested catches over last two years (54% rate — legitimate regardless of competition level).",
+    strengths: ["Good hands — 54% contested catch rate over 2 years","Made impressive one-handed grabs"],
+    concerns: ["Played mostly smaller schools — competition level question mark","Not crispy route running","Too choppy off the line","Not super strong, skinny build","Not jump-off-screen fast in pads"],
+    comp: null, stats: { Speed: 5, RouteRunning: 5, Hands: 9, RAC: 6 },
+    notes: "Level of competition, build, and explosiveness are all question marks at the next level.", flags: ["⚠️ Competition Level","⚠️ Projection Risk"],
+  },
+  {
+    rank: 17, name: "CJ Daniels", school: "Miami", height: "6'2\"", weight: "225 lbs", fortyTime: "4.58",
+    grade: "C+", tier: "Day 3", scouted: true,
+    recentStats: "2023: 55 rec · 1,067 yds · 10 TD (Liberty)  |  2024: 42 rec · 480 yds (LSU)  |  2025: 50 rec · 557 yds · 7 TD (Miami)",
+    industryView: "Projected 4th-6th round. Put up big numbers at Liberty and has been a consistent producer across three programs.",
+    summary: "Efficient route runner — knows exactly what he is doing. Great hands in traffic. One-handed grab vs Notre Dame. Good red zone target. 4.58 will hurt his stock.",
+    strengths: ["Efficient route runner — 9/10","Great hands in traffic, catches with his hands","Good red zone target","Surprisingly quick off the line despite relaxed stance","One-handed grab vs Notre Dame — legit competition moment"],
+    concerns: ["4.58 40 time will hurt draft stock significantly","Not a RAC guy — won't make many people miss"],
+    comp: null, stats: { Speed: 6, RouteRunning: 9, Hands: 7, RAC: 6 },
+    notes: "Tape says more than the stopwatch. 4.58 is going to be hard to overcome on draft day.", flags: ["⚠️ Speed Concern"],
+  },
+  {
+    rank: 18, name: "Chris Bell", school: "Louisville", height: "6'2\"", weight: "222 lbs", fortyTime: "4.50*",
+    grade: "C", tier: "Camp Body", scouted: true,
+    recentStats: "2024: 43 rec · 737 yds · 4 TD  |  2025: 72 rec · 917 yds · 6 TD (late ACL tear)",
+    industryView: "Had 72 catches and 917 yards but suffered a late-season ACL tear. Has makeup concerns and teams wonder about playbook learning ability. May need a redshirt rookie season to recover. Projected 2nd-3rd round by industry.",
+    summary: "Good size and body. Has good speed once he gets going. Nothing really pops on film — no standout trait that separates him.",
+    strengths: ["Good size and body for the position","Has good speed once he gets going"],
+    concerns: ["Catches with his body way too much — consistent concern at the NFL level","Rounds routes slightly","No standout trait on film","Late-season ACL tear — recovery timeline unknown"],
+    comp: null, stats: { Speed: 6, RouteRunning: 5, Hands: 5, RAC: 5 },
+    notes: "Camp body / depth piece unless something shows up on rewatch. ACL adds another question mark.", flags: ["⚠️ Body Catcher","⚠️ ACL Injury"],
+  },
+  {
+    rank: 19, name: "Ja'Kobi Lane", school: "USC", height: "6'4\"", weight: "200 lbs", fortyTime: "4.47",
+    grade: "C+", tier: "Day 3", scouted: true,
+    recentStats: "2024: 43 rec · 525 yds · 12 TD  |  2025: 49 rec · 745 yds · 4 TD",
+    industryView: "Big receiver dangerous on 50-50 passes. Excellent red zone weapon — 12 TDs in 2024. Had a solid 40 at the combine to help himself. Projected 2nd-4th round.",
+    summary: "Incredible hands — makes some of the craziest catches in this draft class. Big red zone threat who posts defenders well before the catch and has elite patience on the ball. However, runs his routes at what looks like half speed far too often, with body language that comes across as disengaged. Rounds routes a lot and didn't stand out even against lesser competition like Purdue where he should have been the dominant athlete. Malachi Lemon, despite being smaller, shows more first step quickness and more willingness to block.",
+    strengths: [
+      "Incredible hands — among the best wow-catch ability in this entire draft class",
+      "Makes one-handed grabs with ease",
+      "Great catches in traffic — patient hands, posts the defender well before the catch",
+      "Big red zone threat given size and catch radius",
+      "Looked much better when playing at full speed — flashes of a legitimate playmaker",
+      "12 TDs in 2024 — red zone efficiency is real",
+    ],
+    concerns: [
+      "Runs routes at half speed far too often — body language looks lazy and disengaged",
+      "Rounds routes a lot — sloppy route running technique",
+      "Slow first step off the line",
+      "Did not stand out even vs Purdue where he should have been the dominant athlete",
+      "4 concentration drops on the season despite elite hands ability",
+      "Doesn't fight for extra yards with power after the catch",
+      "Terrible blocker — looked uninterested, nearly drew hold or block-in-the-back calls repeatedly",
+      "Struggles to track and keep defenders in front of him as a blocker",
+      "Rarely tries to extend plays when his route doesn't originally work",
+    ],
+    comp: null,
+    stats: { Speed: 5, RouteRunning: 5, Hands: 9, RAC: 5 },
+    notes: "The hands are undeniable — genuine wow plays. But the effort and engagement concerns are a real red flag. Malachi Lemon at a smaller size shows more motor and willingness. Hard to trust a guy who coasts at half speed this often.",
+    flags: ["⚠️ Effort Concern", "⚠️ Route Running"],
+  },
+  {
+    rank: 20, name: "Colbie Young", school: "Georgia", height: "6'4 3/4\"", weight: "218 lbs", fortyTime: "4.49",
+    grade: "B-", tier: "Day 3", scouted: true,
+    extra: "31 7/8\" arm | 9 1/2\" hands | 1.59 10-yd split",
+    recentStats: "Georgia 2025 — missed 15 games over the past two seasons to suspension or injury",
+    industryView: "Has prototypical size with large hands. Teams will need to dig into his off-field background. Missed 15 games over the past two seasons. Projected Day 3.",
+    summary: "Looks massive on tape — truly NFL body at 6'4 3/4\" and 218 lbs. Had a nasty fake on a stop-and-go that flashed real route running feel. Smooth in his routes for his size — not super explosive off the line but doesn't need to be. Breaks back to the ball great on curls. Very physical fighting for yards after the catch — won't juke you but will run through you. Could be a decent blocker with his size and willingness. Wouldn't be surprised if he ends up being productive in the NFL.",
+    strengths: [
+      "Prototypical NFL size — 6'4 3/4\" and 218 lbs looks massive on tape",
+      "Nasty stop-and-go fake — real route running feel for his size",
+      "Smooth routes for his size — no real route running concerns",
+      "Breaks back to the ball great on curl routes",
+      "Very physical after the catch — runs through tacklers, not around them",
+      "Size and strength to outmuscle cornerbacks for space",
+      "Leaping and extension creates a very high catch point",
+      "Consistent boundary awareness with his feet",
+      "Tough to bring down after the catch",
+      "Blocker upside given size and willingness",
+      "Took gunner reps — special teams value",
+    ],
+    concerns: [
+      "Missed 15 games over last two seasons — suspension or injury, teams will dig into this",
+      "Off-field background is a flag that every team will investigate",
+      "Quality press tends to stick and travel with him downfield",
+      "Can be a step slow to adjust and find catch space",
+      "Average short-area movement and top-end speed",
+      "Fails to maintain speed and gain ground out of turns",
+      "Not going to create separation with athleticism alone",
+    ],
+    comp: null,
+    stats: { Speed: 5, RouteRunning: 7, Hands: 7, RAC: 6 },
+    notes: "The size alone keeps him on boards. The stop-and-go fake and curl route ability suggest more polish than you'd expect. The 15 missed games is the one thing that could push him off teams' boards entirely depending on what they find.",
+    flags: ["⚠️ Availability Concern", "⚠️ Off-Field Flag"],
+  },
+  {
+    rank: 21, name: "Will Pauling", school: "Notre Dame", height: "5'9.4\"", weight: "183 lbs", fortyTime: "4.37",
+    grade: "C+", tier: "Day 3", scouted: true,
+    extra: "29 5/8\" arm | 42\" vert | 4.31 20-yd shuttle",
+    recentStats: "2025: 26 rec · 381 yds · 6 TD  |  12% drop rate in 2024",
+    industryView: "Multiple team sources say impressive on tape with route-running, instincts, and feel. Elected captain by teammates despite only being at Notre Dame a few months after transferring from Wisconsin. Mid-round steal potential per some sources. Projected 3rd-5th round.",
+    summary: "Surprised he only had 26 catches given what he showed on film. Pretty shifty route running with solid ability after the catch. Even had a nice contested catch against Boise State. The size is concerning — 5'9.4\" and 183 lbs is small and the translation to the NFL with that frame is a real question. Showed enough to stay on the board but needs to prove he can handle contact at the next level.",
+    strengths: [
+      "Pretty shifty route running — 7/10",
+      "Solid ability after the catch — quick and elusive",
+      "4.37 speed is legit for his size",
+      "42\" vertical — elite leaping ability, much better than his size suggests",
+      "4.31 shuttle — elite change of direction",
+      "Showed a nice contested catch vs Boise State",
+      "6 TDs on only 26 catches — elite efficiency",
+      "Teammate-elected captain at Notre Dame — serious character green flag",
+    ],
+    concerns: [
+      "5'9.4\" 183 lbs — size is a real concern for NFL translation",
+      "29 5/8\" arm length is short — contact on routes will be tough",
+      "12% drop rate in 2024 — catching grade reflects that",
+      "Only 26 catches in 2025 despite showing ability — usage concern",
+      "Will need to show he can handle physical press coverage at the next level",
+    ],
+    comp: null,
+    stats: { Speed: 9, RouteRunning: 7, Hands: 5, RAC: 7 },
+    notes: "Size concern is the dominant theme here. The athleticism is real — 42\" vert and 4.31 shuttle on a 183 lb frame is a special athlete. But the drop rate and frame make NFL projection difficult. #20 for now with potential to move depending on what else we see.",
+    flags: ["⚠️ Size Concern", "⚠️ Drop Rate"],
+  },
+  {
+    rank: 22, name: "Caleb Douglas", school: "Texas Tech", height: "6'4\"", weight: "206 lbs", fortyTime: "4.39",
     grade: "C+", tier: "Day 3", scouted: false,
     recentStats: "2024: 60 rec · 877 yds · 6 TD  |  2025: 54 rec · 846 yds · 7 TD",
     industryView: "Has mismatch size and showed good speed at the combine. Consistent Big 12 producer over two seasons. Projected 3rd-5th round.",
@@ -271,7 +455,7 @@ const players = [
     notes: "6'4\" and 4.39 is an intriguing size-speed combo. Consistent at the Big 12 level.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 20, name: "Harrison Wallace III", school: "Ole Miss", height: "6'0\"", weight: "192 lbs", fortyTime: "4.54",
+    rank: 23, name: "Harrison Wallace III", school: "Ole Miss", height: "6'0\"", weight: "192 lbs", fortyTime: "4.54",
     grade: "C+", tier: "Day 3", scouted: false,
     recentStats: "2025: 61 rec · 934 yds · 4 TD",
     industryView: "Quality size with shifty route-running and suddenness out of the break. Tape against Georgia in the CFP will help his grade — had his way with a future NFL-loaded secondary. Projected 3rd-5th round.",
@@ -280,25 +464,33 @@ const players = [
     notes: "CFP performance against Georgia's DB talent is a meaningful data point worth pulling.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 21, name: "Aaron Anderson", school: "LSU", height: "5'8\"", weight: "187 lbs", fortyTime: "4.40*",
-    grade: "C+", tier: "Day 3", scouted: false,
+    rank: 24, name: "Aaron Anderson", school: "LSU", height: "5'8\"", weight: "187 lbs", fortyTime: "4.55*",
+    grade: "D+", tier: "Late Round", scouted: true,
     recentStats: "2024: 61 rec · 884 yds · 5 TD  |  2025: 33 rec · 398 yds",
     industryView: "Extremely fast — a threat to rip off a big gain any time he touches the ball. Very undersized at 5'8\". Has upside to develop. Projected 3rd-4th round.",
-    summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
-    notes: "Elite speed but 5'8\" is a major size flag. Big production dip in 2025 needs explaining.", flags: ["🔄 Rewatch Pending","⚠️ Size Concern"],
+    summary: "Does a good job stacking the defender to the inside before breaking on an out route. Decently crispy routes but not super explosive breaking out of them. At 5'8\" the concern is real about transitioning against more physical NFL corners who will get their hands on him. Decent hands but doesn't create enough separation to consistently get open at the next level. Speed grade doesn't pop on film either — this isn't the elite burner the industry projection suggests.",
+    strengths: [
+      "Good at stacking the defender to the inside before breaking on out routes",
+      "Decently crispy routes — not sloppy",
+      "Has a good juke to make one man miss",
+      "Not afraid of contact after the catch",
+    ],
+    concerns: [
+      "5'8\" — serious concern against physical NFL corners who will jam him at the line",
+      "Speed doesn't pop on film — 4.55 range isn't great for a 5'8\" receiver",
+      "Not super explosive breaking out of routes",
+      "Doesn't create enough separation to consistently get open at the next level",
+      "10% drop rate — catching is below average",
+      "Wasn't heavily involved in the offense — limited sample raises questions",
+      "Big production dip in 2025 needs explaining",
+    ],
+    comp: null,
+    stats: { Speed: 5, RouteRunning: 6, Hands: 4, RAC: 6 },
+    notes: "The size and the hands are both working against him. 5'8\" with a 10% drop rate and below-average speed on film is a tough sell at the next level. Route stacking technique shows some intelligence but the tools may not be there to consistently win.",
+    flags: ["⚠️ Size Concern", "⚠️ Drop Rate", "⚠️ Speed Concern"],
   },
   {
-    rank: 22, name: "Will Pauling", school: "Notre Dame", height: "6'0\"", weight: "190 lbs", fortyTime: "4.48*",
-    grade: "C+", tier: "Day 3", scouted: false,
-    recentStats: "2025: 26 rec · 381 yds · 6 TD",
-    industryView: "Multiple team sources say impressive on tape with route-running, instincts, and feel. Elected captain by teammates despite only being at Notre Dame a few months after transferring from Wisconsin. Mid-round steal potential per some sources. Projected 3rd-5th round.",
-    summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
-    notes: "6 TDs on only 26 catches is elite efficiency. Teammate-elected captain is a serious character green flag.", flags: ["🔄 Rewatch Pending"],
-  },
-  {
-    rank: 23, name: "Bryce Lance", school: "North Dakota State", height: "6'3\"", weight: "204 lbs", fortyTime: "4.34",
+    rank: 25, name: "Bryce Lance", school: "North Dakota State", height: "6'3\"", weight: "204 lbs", fortyTime: "4.34",
     grade: "C+", tier: "Day 3", scouted: false,
     recentStats: "2024: 75 rec · 1,053 yds · 17 TD  |  2025: 51 rec · 1,079 yds · 8 TD",
     industryView: "Breakout 2024 with 17 touchdowns at North Dakota State. Helped himself with a fast 4.34 combine 40. FCS competition level is the primary concern. Projected 3rd-5th round.",
@@ -307,16 +499,41 @@ const players = [
     notes: "17 TDs at NDSU + 4.34 speed demands a look. FCS level is the question.", flags: ["🔄 Rewatch Pending","⚠️ Competition Level"],
   },
   {
-    rank: 24, name: "Dillon Bell", school: "Georgia", height: "6'1\"", weight: "209 lbs", fortyTime: "4.50",
-    grade: "C", tier: "Day 3", scouted: false,
+    rank: 26, name: "Dillon Bell", school: "Georgia", height: "6'0 3/4\"", weight: "209 lbs", fortyTime: "4.50",
+    grade: "C", tier: "Day 3", scouted: true,
+    extra: "30 1/4\" arm | 9 1/2\" hands | 39\" vert | 10'6\" broad | 1.58 10-yd split",
     recentStats: "2023: 29 rec · 355 yds · 2 TD  |  2024: 43 rec · 466 yds · 4 TD  |  2025: 27 rec · 268 yds · 2 TD",
-    industryView: "Showed some ability but was hindered by Carson Beck's inconsistency. Production dipped each year. Projected 3rd-5th round.",
-    summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
-    notes: "Production trajectory is concerning — numbers went down each year. QB situation complicates evaluation.", flags: ["🔄 Rewatch Pending"],
+    industryView: "Some scouts see him as Deebo-lite. Showed some ability but was hindered by Carson Beck's inconsistency and the offense around him. 'I think he's a better receiver than he was able to show in 2025 in that offense.' — scout source. Projected 3rd-5th round.",
+    summary: "Thick running back-looking body — built to run through contact, not around it. More of a straight-line runner who is highly successful on jet-sweeps and reverses. Breaks through open-field tacklers once he gets rolling downhill. Physical through contact in the route and at the catch point. Pedestrian catch production over 56 games at Georgia — the offense limited him but the numbers are still hard to ignore. Routes lack crisp cuts and need work finding holes in zone coverage.",
+    strengths: [
+      "Thick, physical 209 lb frame — built to absorb contact",
+      "Highly successful on jet-sweeps and reverses — must-use weapon in the right scheme",
+      "Breaks through open-field tacklers once he gets rolling downhill",
+      "Accelerates late in route to create space",
+      "Physical through contact in the route and at the catch point",
+      "Run-block potential on perimeter and cracking down",
+      "Has experience and talent to become a plus kick returner",
+      "39\" vertical — can go up and get it",
+      "Some scouts see Deebo Samuel-lite potential as a multipurpose weapon",
+    ],
+    concerns: [
+      "Pedestrian catch production over 56 games at Georgia — hard to fully excuse",
+      "Routes lack crisp cuts and attention to detail",
+      "Doesn't often adjust route to avoid redirection",
+      "Unable to pull the brakes firmly for comeback routes",
+      "Body-catcher with below-average catch focus",
+      "Struggles to bring in throws outside his frame",
+      "Needs to work at finding holes in zone coverage",
+      "More straight-line runner than a separation creator",
+      "Production dipped every year — 2025 was worst of career despite being a senior",
+    ],
+    comp: "Deebo Samuel (lite)",
+    stats: { Speed: 6, RouteRunning: 5, Hands: 4, RAC: 7 },
+    notes: "The Deebo-lite comp is the most optimistic read. The build and jet sweep usage make sense for that role but the catching and route running need real work. The offense definitely limited him — the question is whether it hid ability or hid the lack of it.",
+    flags: ["⚠️ Body Catcher", "⚠️ Route Sharpness"],
   },
   {
-    rank: 25, name: "Lewis Bond", school: "Boston College", height: "5'10\"", weight: "190 lbs", fortyTime: "4.48*",
+    rank: 27, name: "Lewis Bond", school: "Boston College", height: "5'10\"", weight: "190 lbs", fortyTime: "4.48*",
     grade: "C", tier: "Day 3", scouted: false,
     recentStats: "2025: 88 rec · 993 yds · 1 TD",
     industryView: "One of the few bright spots on a bad Boston College team. Slot receiver candidate for the NFL given his size. Projected 3rd-5th round.",
@@ -325,7 +542,7 @@ const players = [
     notes: "88 catches on a bad team is a reliability signal. Only 1 TD on 993 yards is worth investigating.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 26, name: "Jordan Hudson", school: "SMU", height: "6'1\"", weight: "191 lbs", fortyTime: "4.51*",
+    rank: 28, name: "Jordan Hudson", school: "SMU", height: "6'1\"", weight: "191 lbs", fortyTime: "4.51*",
     grade: "C", tier: "Day 3", scouted: false,
     recentStats: "2025: 61 rec · 766 yds · 6 TD",
     industryView: "Solid season for the Mustangs. Could rise with a good Senior Bowl and combine performance. Projected 3rd-5th round.",
@@ -334,7 +551,7 @@ const players = [
     notes: "Mid-round projection. Performance at all-star events matters for his stock.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 27, name: "Jayce Brown", school: "Kansas State", height: "6'0\"", weight: "179 lbs", fortyTime: "4.49*",
+    rank: 29, name: "Jayce Brown", school: "Kansas State", height: "6'0\"", weight: "179 lbs", fortyTime: "4.49*",
     grade: "C", tier: "Day 3", scouted: false,
     recentStats: "2024: 47 rec · 823 yds · 5 TD  |  2025: 41 rec · 712 yds · 5 TD",
     industryView: "Showed playmaking ability averaging 18 yards per reception in 2024. Could stand to gain weight and fill out frame for the NFL. Projected 3rd-5th round.",
@@ -343,7 +560,7 @@ const players = [
     notes: "18 ypr in 2024 is elite efficiency. 179 lbs needs to add weight for the NFL.", flags: ["🔄 Rewatch Pending","⚠️ Size Concern"],
   },
   {
-    rank: 28, name: "Vinny Anthony", school: "Wisconsin", height: "6'0\"", weight: "183 lbs", fortyTime: "4.54",
+    rank: 30, name: "Vinny Anthony", school: "Wisconsin", height: "6'0\"", weight: "183 lbs", fortyTime: "4.54",
     grade: "C", tier: "Day 3", scouted: false,
     recentStats: "2024: 39 rec · 672 yds · 4 TD  |  2025: 31 rec · 391 yds · 1 TD",
     industryView: "Didn't have a huge 2025 season but impressive enough to earn a Senior Bowl invitation. Slot receiver candidate. Projected 3rd-5th round.",
@@ -352,7 +569,7 @@ const players = [
     notes: "Senior Bowl invite suggests evaluators see more than the raw numbers show.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 29, name: "Kevin Coleman Jr.", school: "Missouri", height: "5'10\"", weight: "179 lbs", fortyTime: "4.49",
+    rank: 31, name: "Kevin Coleman Jr.", school: "Missouri", height: "5'10\"", weight: "179 lbs", fortyTime: "4.49",
     grade: "C", tier: "Day 3", scouted: false,
     recentStats: "2024: 74 rec · 932 yds · 6 TD (MSU)  |  2025: 66 rec · 732 yds · 1 TD (MIZ)",
     industryView: "Undersized receiver who could be a slot competitor and punt returner. Had strong production at Mississippi State before transferring. Projected 3rd-5th round.",
@@ -361,16 +578,16 @@ const players = [
     notes: "Production dropped significantly in the transfer to Mizzou. Size and return versatility are the selling points.", flags: ["🔄 Rewatch Pending","⚠️ Size Concern"],
   },
   {
-    rank: 30, name: "Rara Thomas", school: "Troy", height: "5'11\"", weight: "212 lbs", fortyTime: "4.49*",
+    rank: 32, name: "Rara Thomas", school: "Troy", height: "5'11\"", weight: "212 lbs", fortyTime: "4.49*",
     grade: "C-", tier: "Day 3", scouted: false,
-    recentStats: "2022: 44 rec · 626 yds · 7 TD (UGA)  |  2023: 23 rec · 383 yds · 1 TD  |  2025: 39 rec · 629 yds · 5 TD (Troy)",
+    recentStats: "2022: 44 rec · 626 yds · 7 TD  |  2023: 23 rec · 383 yds · 1 TD  |  2025: 39 rec · 629 yds · 5 TD (Troy)",
     industryView: "Had buzz in the scouting community but was kicked off the Georgia team in the preseason. Off-the-field concerns are going to hurt throughout the draft process. Projected 4th-6th round.",
     summary: "Personal scouting pending.",
     strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "Kicked off Georgia roster — off-field concerns will follow him into every draft room.", flags: ["🔄 Rewatch Pending","⚠️ Character Concern"],
   },
   {
-    rank: 31, name: "Reggie Virgil", school: "Texas Tech", height: "6'3\"", weight: "187 lbs", fortyTime: "4.57",
+    rank: 33, name: "Reggie Virgil", school: "Texas Tech", height: "6'3\"", weight: "187 lbs", fortyTime: "4.57",
     grade: "C-", tier: "Day 3", scouted: false,
     recentStats: "2025: 57 rec · 705 yds · 6 TD",
     industryView: "Good size for the NFL. Earned a Senior Bowl invitation. If he can show separation against top CBs that could help him rise. Projected 4th-6th round.",
@@ -378,9 +595,8 @@ const players = [
     strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "6'3\" with Senior Bowl invite. 4.57 and 187 lbs is a lean build that may not hold up.", flags: ["🔄 Rewatch Pending"],
   },
-
   {
-    rank: 33, name: "Brenen Thompson", school: "Mississippi State", height: "5'9\"", weight: "164 lbs", fortyTime: "4.26",
+    rank: 34, name: "Brenen Thompson", school: "Mississippi State", height: "5'9\"", weight: "164 lbs", fortyTime: "4.26",
     grade: "C-", tier: "Day 3", scouted: false,
     recentStats: "2025: 57 rec · 1,054 yds · 6 TD",
     industryView: "Very undersized but dangerous receiver. Had an electric 4.26 combine 40 time. Will have to compete for a slot role. Projected 4th-6th round — 164 lbs is a massive concern.",
@@ -389,7 +605,7 @@ const players = [
     notes: "4.26 is elite. 164 lbs is lightest in this class by a wide margin — extreme durability risk.", flags: ["🔄 Rewatch Pending","⚠️ Size Concern"],
   },
   {
-    rank: 34, name: "Josh Cameron", school: "Baylor", height: "6'2\"", weight: "220 lbs", fortyTime: "4.49*",
+    rank: 35, name: "Josh Cameron", school: "Baylor", height: "6'2\"", weight: "220 lbs", fortyTime: "4.49*",
     grade: "C-", tier: "Day 3", scouted: false,
     recentStats: "2024: 52 rec · 754 yds · 10 TD  |  2025: 69 rec · 872 yds · 9 TD",
     industryView: "Also a solid punt returner. Consistent producer at Baylor with back-to-back high TD seasons. Projected 4th-6th round.",
@@ -398,7 +614,7 @@ const players = [
     notes: "Back-to-back 9-10 TD seasons with plus size. Return versatility helps value.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 35, name: "Romelo Brinson", school: "SMU", height: "6'2\"", weight: "190 lbs", fortyTime: "4.52*",
+    rank: 36, name: "Romelo Brinson", school: "SMU", height: "6'2\"", weight: "190 lbs", fortyTime: "4.52*",
     grade: "C-", tier: "Day 3", scouted: false,
     recentStats: "2025: 43 rec · 638 yds · 3 TD",
     industryView: "Has functional size and showed enough for a Senior Bowl invitation. Projected 4th-6th round.",
@@ -407,7 +623,7 @@ const players = [
     notes: "Senior Bowl invite signals team interest. Production was modest.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 36, name: "Jalil Farooq", school: "Maryland", height: "6'1\"", weight: "204 lbs", fortyTime: "4.54*",
+    rank: 37, name: "Jalil Farooq", school: "Maryland", height: "6'1\"", weight: "204 lbs", fortyTime: "4.54*",
     grade: "C-", tier: "Day 3", scouted: false,
     recentStats: "2022: 37 rec · 466 yds · 5 TD  |  2023: 45 rec · 694 yds · 2 TD  |  2024: 3 rec · 58 yds  |  2025: 58 rec · 545 yds · 4 TD",
     industryView: "Has dealt with injuries — only 3 catches in 2024. Solid build with upside. Showed better in 2025. Was solid at Oklahoma before injuries derailed him. Projected 4th-6th round.",
@@ -416,7 +632,7 @@ const players = [
     notes: "Injury history in 2024 raises durability questions. Was solid at Oklahoma before injuries.", flags: ["🔄 Rewatch Pending","⚠️ Injury History"],
   },
   {
-    rank: 37, name: "Ian Strong", school: "Rutgers", height: "6'3\"", weight: "211 lbs", fortyTime: "4.53*",
+    rank: 38, name: "Ian Strong", school: "Rutgers", height: "6'3\"", weight: "211 lbs", fortyTime: "4.53*",
     grade: "C-", tier: "Day 3", scouted: false,
     recentStats: "2024: 43 rec · 676 yds · 5 TD  |  2025: 52 rec · 762 yds · 5 TD",
     industryView: "Big outside receiver who is put together well and provides a size mismatch. Consistent 5 TDs in both years. Projected 4th-6th round.",
@@ -425,7 +641,7 @@ const players = [
     notes: "6'3\", 211 lbs, consistent 5 TDs each year. Rutgers level of competition is the question.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 38, name: "Kobe Prentice", school: "Baylor", height: "5'10\"", weight: "182 lbs", fortyTime: "4.53*",
+    rank: 39, name: "Kobe Prentice", school: "Baylor", height: "5'10\"", weight: "182 lbs", fortyTime: "4.53*",
     grade: "C-", tier: "Day 3", scouted: false,
     recentStats: "2025: 26 rec · 380 yds · 6 TD",
     industryView: "Has bounced between programs. 6 TDs on 26 catches in 2025 shows efficiency but very limited sample. Projected 4th-6th round.",
@@ -434,7 +650,7 @@ const players = [
     notes: "6 TDs on 26 catches is elite efficiency but thin sample. Multiple transfers a concern.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 39, name: "Kaden Wetjen", school: "Iowa", height: "5'9\"", weight: "193 lbs", fortyTime: "4.47",
+    rank: 40, name: "Kaden Wetjen", school: "Iowa", height: "5'9\"", weight: "193 lbs", fortyTime: "4.47",
     grade: "C-", tier: "Day 3", scouted: false,
     recentStats: "2025: 20 rec · 151 yds · 1 TD",
     industryView: "Dynamic punt and kick returner with return TDs in both 2024 and 2025. With new NFL kickoff rules, could be more valuable as a specialist. Could be a sleeper mid-round pick. Projected 4th-6th round.",
@@ -443,7 +659,7 @@ const players = [
     notes: "Special teams value player. 20 catches offensively isn't enough to evaluate him as a receiver alone.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 40, name: "Noah Thomas", school: "Georgia", height: "6'5\"", weight: "205 lbs", fortyTime: "4.52*",
+    rank: 41, name: "Noah Thomas", school: "Georgia", height: "6'5\"", weight: "205 lbs", fortyTime: "4.52*",
     grade: "C-", tier: "Day 3", scouted: false,
     recentStats: "2024: 39 rec · 574 yds · 8 TD  |  2025: 16 rec · 254 yds · 4 TD",
     industryView: "Tall receiver who presents a size mismatch against cornerbacks. Key question is his ability to separate from NFL DBs. Projected 4th-6th round.",
@@ -452,7 +668,7 @@ const players = [
     notes: "6'5\" is excellent size. 8 TDs in 2024 encouraging but production fell sharply in 2025.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 41, name: "Barion Brown", school: "LSU", height: "5'11\"", weight: "177 lbs", fortyTime: "4.40",
+    rank: 42, name: "Barion Brown", school: "LSU", height: "5'11\"", weight: "177 lbs", fortyTime: "4.40",
     grade: "D+", tier: "Late Round", scouted: false,
     recentStats: "2025: 52 rec · 495 yds · 1 TD",
     industryView: "Had modest production across multiple seasons. Had a good combine 40 time to help himself. Projected 5th-7th round.",
@@ -461,7 +677,7 @@ const players = [
     notes: "4.40 speed and 5'11\" is fine. Limited production ceiling makes this a late flier at best.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 42, name: "Caullin Lacy", school: "Louisville", height: "5'10\"", weight: "190 lbs", fortyTime: "4.50*",
+    rank: 43, name: "Caullin Lacy", school: "Louisville", height: "5'10\"", weight: "190 lbs", fortyTime: "4.50*",
     grade: "D+", tier: "Late Round", scouted: false,
     recentStats: "2025: 54 rec · 547 yds · 2 TD",
     industryView: "Solid No. 2 receiver at Louisville alongside Chris Bell. Projected 5th-7th round.",
@@ -470,7 +686,7 @@ const players = [
     notes: "Limited upside. Benefited from playing alongside Chris Bell drawing coverage.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 43, name: "Malik Benson", school: "Oregon", height: "6'0\"", weight: "189 lbs", fortyTime: "4.37",
+    rank: 44, name: "Malik Benson", school: "Oregon", height: "6'0\"", weight: "189 lbs", fortyTime: "4.37",
     grade: "D", tier: "UDFA", scouted: false,
     recentStats: "2023: 13 rec · 162 yds · 1 TD (ALA)  |  2025: 36 rec · 645 yds · 6 TD (ORE)",
     industryView: "Five-star JUCO recruit who couldn't get targets at Alabama. Ran well at the combine. Projected 6th round to UDFA.",
@@ -479,7 +695,7 @@ const players = [
     notes: "4.37 speed is real. Inconsistent production path — JUCO to Alabama depth to Oregon starter.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 44, name: "J. Michael Sturdivant", school: "Florida", height: "6'3\"", weight: "207 lbs", fortyTime: "4.40",
+    rank: 45, name: "J. Michael Sturdivant", school: "Florida", height: "6'3\"", weight: "207 lbs", fortyTime: "4.40",
     grade: "D", tier: "UDFA", scouted: false,
     recentStats: "2025: 27 rec · 406 yds · 3 TD",
     industryView: "Quality size, speed, and upside but hindered by inconsistent QB play at Florida. Could be a nice late-round value pick. Projected 6th round to UDFA.",
@@ -488,7 +704,7 @@ const players = [
     notes: "6'3\" and 4.40 is a combination worth investigating. Bad QB situation may have hidden his ability.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 45, name: "Kendrick Law", school: "Kentucky", height: "5'11\"", weight: "203 lbs", fortyTime: "4.45",
+    rank: 46, name: "Kendrick Law", school: "Kentucky", height: "5'11\"", weight: "203 lbs", fortyTime: "4.45",
     grade: "D", tier: "UDFA", scouted: false,
     recentStats: "2024: 10 rec · 105 yds · 1 TD (ALA)  |  2025: 53 rec · 540 yds · 3 TD (UK)",
     industryView: "Transferred from Alabama to Kentucky. Had a decent season for the Wildcats. Projected 7th round to UDFA.",
@@ -497,7 +713,7 @@ const players = [
     notes: "Didn't stick at Alabama. Kentucky production was ok but not a standout.", flags: ["🔄 Rewatch Pending"],
   },
   {
-    rank: 46, name: "Chris Hilton Jr.", school: "LSU", height: "6'0\"", weight: "188 lbs", fortyTime: "4.41",
+    rank: 47, name: "Chris Hilton Jr.", school: "LSU", height: "6'0\"", weight: "188 lbs", fortyTime: "4.41",
     grade: "D", tier: "UDFA", scouted: false,
     recentStats: "2024: 9 rec · 243 yds · 3 TD (27.0 ypc)  |  2025: 7 rec · 55 yds",
     industryView: "Flashed big-play ability in 2024 averaging 27 yards per catch on 9 receptions. Tested well before the draft. Projected 7th round to UDFA.",
@@ -526,9 +742,7 @@ const edgePlayers = [
       "Versatile alignment — elite as edge rusher OR stand up linebacker blitz weapon",
       "Can be deployed as a deadly LB unleashed as a blitz weapon OR as primary edge rusher",
     ],
-    concerns: [
-      "Lighter weight at 241 lbs for a true every-down edge role — could be a factor vs the run at the next level",
-    ],
+    concerns: ["Lighter weight at 241 lbs for a true every-down edge role — could be a factor vs the run at the next level"],
     comp: null,
     stats: { GetOff: 10, PassRush: 9, RunDefense: 8, Motor: 10 },
     notes: "Elite either way you deploy him. The 241 lbs concern is real on paper but his athleticism and motor compensate significantly. Right scheme unlocks a special player.",
@@ -551,9 +765,7 @@ const edgePlayers = [
       "Does nasty work on the inside — not edge only",
       "Wins with speed, power, and interior flashes",
     ],
-    concerns: [
-      "Arms are on the shorter side at 30 7/8\" for his frame — hand fighting at the next level is worth monitoring",
-    ],
+    concerns: ["Arms are on the shorter side at 30 7/8\" for his frame — hand fighting at the next level is worth monitoring"],
     comp: null,
     stats: { GetOff: 9, PassRush: 9, RunDefense: 8, Motor: 9 },
     notes: "Lower body power is the standout physical trait. The hip-hugging bend move is elite and will translate immediately at the next level.",
@@ -576,9 +788,7 @@ const edgePlayers = [
       "Uses bend to get to the QB after winning with hands",
       "Clearly well coached and disciplined",
     ],
-    concerns: [
-      "Projected 40 time of 4.95 — not a burner, wins with technique not pure speed",
-    ],
+    concerns: ["Projected 40 time of 4.95 — not a burner, wins with technique not pure speed"],
     comp: null,
     stats: { GetOff: 9, PassRush: 8, RunDefense: 7, Motor: 9 },
     notes: "The technique out of Miami is elite. Wins with hand fighting and discipline, not athleticism. That kind of player tends to translate well at the next level.",
@@ -723,38 +933,43 @@ function StatBar({ label, value }) {
   );
 }
 
-const TIERS = ["All","Elite","1st Round","1st/2nd Round","2nd Round","2nd/3rd Round","Day 3","Late Round","UDFA","Avoid","Camp Body"];
+const TIERS    = ["All","Elite","1st Round","1st/2nd Round","2nd Round","2nd/3rd Round","Day 3","Late Round","UDFA","Avoid","Camp Body"];
 const EDGE_TIERS = ["All","1st Round","2nd Round","2nd/3rd Round","Day 3"];
-
-const WR_STATS = ["Speed","Route Running","Hands/Catching","RAC/YAC"];
+const WR_STATS   = ["Speed","Route Running","Hands/Catching","RAC/YAC"];
 const EDGE_STATS = ["Get Off","Pass Rush","Run Defense","Motor"];
 
 export default function App() {
-  const [position, setPosition] = useState("WR");
-  const [selected, setSelected] = useState(null);
-  const [filter, setFilter] = useState("All");
+  const [position, setPosition]     = useState("WR");
+  const [selected, setSelected]     = useState(null);
+  const [filter, setFilter]         = useState("All");
   const [scoutedOnly, setScoutedOnly] = useState(false);
+  const [drafted, setDrafted]       = useState({});
+  const [hidedrafted, setHideDrafted] = useState(false);
 
-  const isWR = position === "WR";
-  const roster = isWR ? players : edgePlayers;
-  const tiers = isWR ? TIERS : EDGE_TIERS;
+  const isWR       = position === "WR";
+  const roster     = isWR ? players : edgePlayers;
+  const tiers      = isWR ? TIERS : EDGE_TIERS;
   const statLabels = isWR ? WR_STATS : EDGE_STATS;
 
+  const draftKey = p => `${position}-${p.rank}`;
+  const isDrafted = p => !!drafted[draftKey(p)];
+  const toggleDrafted = (p, e) => {
+    e.stopPropagation();
+    setDrafted(prev => ({ ...prev, [draftKey(p)]: !prev[draftKey(p)] }));
+    if (selected === p.rank) setSelected(null);
+  };
+
   const filtered = roster.filter(p => {
+    if (hidedrafted && isDrafted(p)) return false;
     if (scoutedOnly && !p.scouted) return false;
     return filter === "All" || p.tier === filter;
   });
 
   const sel = selected != null ? roster.find(p => p.rank === selected) : null;
-  const bs = t => ({ ...tierBadge[t], fontSize:9, padding:"2px 8px", borderRadius:2, letterSpacing:1, fontWeight:700, whiteSpace:"nowrap" });
+  const bs  = t => ({ ...tierBadge[t], fontSize:9, padding:"2px 8px", borderRadius:2, letterSpacing:1, fontWeight:700, whiteSpace:"nowrap" });
 
-  const switchPosition = (pos) => {
-    setPosition(pos);
-    setSelected(null);
-    setFilter("All");
-  };
-
-  const getStats = (p) => isWR
+  const switchPosition = pos => { setPosition(pos); setSelected(null); setFilter("All"); };
+  const getStats = p => isWR
     ? [p.stats.Speed, p.stats.RouteRunning, p.stats.Hands, p.stats.RAC]
     : [p.stats.GetOff, p.stats.PassRush, p.stats.RunDefense, p.stats.Motor];
 
@@ -794,7 +1009,7 @@ export default function App() {
               {[
                 {l:"Scouted",n:roster.filter(p=>p.scouted).length,c:"#f59e0b"},
                 {l:"Pending",n:roster.filter(p=>!p.scouted).length,c:"#334155"},
-                {l:"Day 1-2",n:roster.filter(p=>["Elite","1st Round","1st/2nd Round","2nd Round","2nd/3rd Round"].includes(p.tier)).length,c:"#60a5fa"}
+                {l:"Day 1-2",n:roster.filter(p=>["Elite","1st Round","1st/2nd Round","2nd Round","2nd/3rd Round"].includes(p.tier)).length,c:"#60a5fa"},
               ].map(s=>(
                 <div key={s.l} style={{ textAlign:"center" }}>
                   <div style={{ fontFamily:"'Bebas Neue'", fontSize:30, color:s.c, lineHeight:1 }}>{s.n}</div>
@@ -809,33 +1024,49 @@ export default function App() {
       {/* FILTERS */}
       <div style={{ padding:"9px 24px", borderBottom:"1px solid #1e293b", display:"flex", gap:5, overflowX:"auto", alignItems:"center", flexShrink:0 }}>
         {tiers.map(t=><button key={t} className={`fb${filter===t?" on":""}`} onClick={()=>setFilter(t)}>{t.toUpperCase()}</button>)}
-        <button className={`fb${scoutedOnly?" on":""}`} style={{ marginLeft:"auto", flexShrink:0 }} onClick={()=>setScoutedOnly(v=>!v)}>👁 SCOUTED ONLY</button>
+        <div style={{ marginLeft:"auto", display:"flex", gap:5, flexShrink:0 }}>
+          <button className={`fb${scoutedOnly?" on":""}`} onClick={()=>setScoutedOnly(v=>!v)}>👁 SCOUTED ONLY</button>
+          <button className={`fb${hidedrafted?" on":""}`} onClick={()=>setHideDrafted(v=>!v)}
+            style={{ borderColor: hidedrafted?"#ef4444":"#1e293b", color: hidedrafted?"#ef4444":"#334155", background: hidedrafted?"rgba(239,68,68,.1)":"transparent" }}>
+            🚫 HIDE DRAFTED
+          </button>
+        </div>
       </div>
 
       {/* BOARD LIST */}
       <div style={{ flex:1, overflowY:"auto" }}>
-        <div style={{ display:"grid", gridTemplateColumns:"38px 1fr 60px 68px 60px 95px", padding:"7px 16px", borderBottom:"1px solid #1e293b", background:"#0d1520", position:"sticky", top:0, zIndex:2 }}>
-          {["RK","PLAYER","HT","WT","40","TIER"].map(h=><div key={h} style={{ fontSize:9, color:"#1e3a5f", letterSpacing:2 }}>{h}</div>)}
+        <div style={{ display:"grid", gridTemplateColumns:"38px 1fr 60px 68px 60px 80px 40px", padding:"7px 16px", borderBottom:"1px solid #1e293b", background:"#0d1520", position:"sticky", top:0, zIndex:2 }}>
+          {["RK","PLAYER","HT","WT","40","TIER",""].map(h=><div key={h} style={{ fontSize:9, color:"#1e3a5f", letterSpacing:2 }}>{h}</div>)}
         </div>
         {filtered.map(p=>{
           const isOn = selected===p.rank;
+          const wasDrafted = isDrafted(p);
           return (
             <div key={p.rank} className={`pr${isOn?" on":""}`}
-              onClick={()=>setSelected(isOn?null:p.rank)}
-              style={{ display:"grid", gridTemplateColumns:"38px 1fr 60px 68px 60px 95px", padding:"10px 16px", opacity:!p.scouted?.6:1 }}>
-              <div style={{ fontFamily:"'Bebas Neue'", fontSize:18, color:isOn?"#60a5fa":"#1e3a5f", paddingTop:2 }}>{p.rank}</div>
+              onClick={()=>!wasDrafted && setSelected(isOn?null:p.rank)}
+              style={{ display:"grid", gridTemplateColumns:"38px 1fr 60px 68px 60px 80px 40px", padding:"10px 16px", opacity: wasDrafted ? 0.3 : !p.scouted ? 0.6 : 1, background: wasDrafted ? "rgba(239,68,68,0.04)" : undefined }}>
+              <div style={{ fontFamily:"'Bebas Neue'", fontSize:18, color: wasDrafted?"#ef4444":isOn?"#60a5fa":"#1e3a5f", paddingTop:2, textDecoration: wasDrafted?"line-through":"none" }}>{p.rank}</div>
               <div>
-                <div style={{ fontSize:12, color:isOn?"#f8fafc":p.scouted?"#cbd5e1":"#475569", display:"flex", alignItems:"center", gap:6 }}>
+                <div style={{ fontSize:12, color: wasDrafted?"#475569":isOn?"#f8fafc":p.scouted?"#cbd5e1":"#475569", display:"flex", alignItems:"center", gap:6, textDecoration: wasDrafted?"line-through":"none" }}>
                   {p.name}
-                  {!p.scouted&&<span style={{ fontSize:7, color:"#1e3a5f", letterSpacing:1 }}>PENDING</span>}
+                  {wasDrafted && <span style={{ fontSize:8, color:"#ef4444", letterSpacing:1 }}>DRAFTED</span>}
+                  {!wasDrafted && !p.scouted && <span style={{ fontSize:7, color:"#1e3a5f", letterSpacing:1 }}>PENDING</span>}
                 </div>
                 <div style={{ fontSize:9, color:"#334155", marginTop:1 }}>{p.school}</div>
-                {p.scouted&&p.flags.length>0&&<div style={{ marginTop:2, display:"flex", gap:4, flexWrap:"wrap" }}>{p.flags.map(f=><span key={f} style={{ fontSize:8, color:"#78350f" }}>{f}</span>)}</div>}
+                {!wasDrafted && p.scouted && p.flags.length>0 && <div style={{ marginTop:2, display:"flex", gap:4, flexWrap:"wrap" }}>{p.flags.map(f=><span key={f} style={{ fontSize:8, color:"#78350f" }}>{f}</span>)}</div>}
               </div>
               <div style={{ fontSize:10, color:"#334155", display:"flex", alignItems:"center" }}>{p.height}</div>
               <div style={{ fontSize:10, color:"#334155", display:"flex", alignItems:"center" }}>{p.weight}</div>
               <div style={{ fontSize:10, color:p.fortyTime!=="TBD"?"#a78bfa":"#1e3a5f", fontWeight:p.fortyTime!=="TBD"?500:400, display:"flex", alignItems:"center" }}>{p.fortyTime}</div>
               <div style={{ display:"flex", alignItems:"center" }}><span style={bs(p.tier)}>{tierLabel(p.tier)}</span></div>
+              <div style={{ display:"flex", alignItems:"center", justifyContent:"center" }}>
+                <button
+                  onClick={e=>toggleDrafted(p,e)}
+                  title={wasDrafted?"Undo drafted":"Mark as drafted"}
+                  style={{ background:"none", border:`1px solid ${wasDrafted?"#ef4444":"#1e293b"}`, borderRadius:2, color: wasDrafted?"#ef4444":"#334155", fontSize:10, cursor:"pointer", padding:"2px 5px", lineHeight:1 }}>
+                  {wasDrafted ? "↩" : "✓"}
+                </button>
+              </div>
             </div>
           );
         })}
@@ -843,8 +1074,7 @@ export default function App() {
 
       {/* FULLSCREEN MODAL */}
       {sel&&(
-        <div
-          onClick={e=>{ if(e.target===e.currentTarget) setSelected(null); }}
+        <div onClick={e=>{ if(e.target===e.currentTarget) setSelected(null); }}
           style={{ position:"fixed", top:0, left:0, right:0, bottom:0, zIndex:9999, background:"rgba(4,8,16,0.97)", display:"flex", alignItems:"flex-start", justifyContent:"center", overflowY:"auto", padding:"16px" }}>
           <div style={{ background:"#080c14", border:"1px solid #1e293b", borderRadius:6, width:"100%", maxWidth:920, position:"relative", boxShadow:"0 0 80px rgba(0,0,0,0.9)", marginTop:4, marginBottom:16 }}>
 
@@ -856,9 +1086,7 @@ export default function App() {
               <div style={{ display:"flex", justifyContent:"space-between", alignItems:"flex-start", marginBottom:24, borderBottom:"1px solid #1e293b", paddingBottom:20 }}>
                 <div>
                   <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:6 }}>
-                    <span style={{ fontFamily:"'Bebas Neue'", fontSize:12, color:"#334155", letterSpacing:4 }}>
-                      #{sel.rank} {sel.scouted?"PERSONALLY SCOUTED":"PLACEHOLDER RANK"} · {position}
-                    </span>
+                    <span style={{ fontFamily:"'Bebas Neue'", fontSize:12, color:"#334155", letterSpacing:4 }}>#{sel.rank} {sel.scouted?"PERSONALLY SCOUTED":"PLACEHOLDER RANK"} · {position}</span>
                     <span style={bs(sel.tier)}>{tierLabel(sel.tier)}</span>
                     {sel.comp&&<span style={{ fontSize:9, color:"#7c3aed", letterSpacing:1, border:"1px solid rgba(124,58,237,.3)", padding:"2px 8px", borderRadius:2 }}>COMP: {sel.comp}</span>}
                   </div>
@@ -873,10 +1101,8 @@ export default function App() {
 
               <div style={{ display:"grid", gridTemplateColumns:"repeat(6,1fr)", gap:8, marginBottom:16 }}>
                 {[
-                  {l:"HEIGHT", v:sel.height},
-                  {l:"WEIGHT", v:sel.weight},
-                  {l:"40 TIME", v:sel.fortyTime, hi:sel.fortyTime!=="TBD"},
-                  ...(sel.extra ? sel.extra.split("|").map(e=>({ l:e.trim().split(" ").slice(1).join(" ").toUpperCase()||"EXTRA", v:e.trim().split(" ")[0] })) : [])
+                  {l:"HEIGHT",v:sel.height},{l:"WEIGHT",v:sel.weight},{l:"40 TIME",v:sel.fortyTime,hi:sel.fortyTime!=="TBD"},
+                  ...(sel.extra?sel.extra.split("|").map(e=>({l:e.trim().split(" ").slice(1).join(" ").toUpperCase()||"EXTRA",v:e.trim().split(" ")[0]})):[])
                 ].slice(0,6).map((m,i)=>(
                   <div key={i} style={{ background:"#0d1520", border:"1px solid #1e293b", borderRadius:3, padding:"10px 14px" }}>
                     <div style={{ fontSize:8, color:"#1e3a5f", letterSpacing:2, marginBottom:4 }}>{m.l}</div>
@@ -918,9 +1144,7 @@ export default function App() {
                     <div style={{ background:"#0d1520", border:"1px solid #1e293b", borderRadius:3, padding:"14px 16px" }}>
                       <div style={{ fontSize:8, color:"#1e3a5f", letterSpacing:2, marginBottom:14 }}>ATTRIBUTE GRADES</div>
                       <div style={{ display:"flex", flexDirection:"column", gap:12 }}>
-                        {statLabels.map((lbl,i)=>(
-                          <StatBar key={lbl} label={lbl} value={getStats(sel)[i]}/>
-                        ))}
+                        {statLabels.map((lbl,i)=><StatBar key={lbl} label={lbl} value={getStats(sel)[i]}/>)}
                       </div>
                     </div>
                   )}
