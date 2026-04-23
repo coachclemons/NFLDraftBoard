@@ -452,7 +452,20 @@ const players = [
     recentStats: "2024: 60 rec · 877 yds · 6 TD  |  2025: 54 rec · 846 yds · 7 TD",
     industryView: "Long, slender outside target with good production but uneven tape. Enticing moments with catch radius and ball skills on fades and deep throws. Focus drops and inability to win contested catches at a high rate can't be overlooked. Quick acceleration for a tall receiver but top-end speed is non-threatening. Will have to battle to make a roster as a backup. Projected 3rd-5th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Tall and long with a 79-inch wingspan",
+      "Shows ability to play through early route contact",
+      "Smooth and natural when playing fades and deep balls",
+      "Makes good use of catch radius on wide and high throws",
+      "Able to pluck and hide the ball from defenders",
+      "Displayed willingness to help near the line as a run blocker",
+    ], concerns: [
+      "Average salesmanship hitting double moves",
+      "Drive phase might lack credibility against NFL coverage",
+      "Takes time to gather and open on comebacks",
+      "Too many focus drops in 2025",
+      "Struggles to create a clean workspace when contested",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "6'4\" and 4.39 is an intriguing size-speed combo. Consistent at the Big 12 level.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -462,7 +475,21 @@ const players = [
     recentStats: "2025: 61 rec · 934 yds · 4 TD",
     industryView: "Leggy long-strider who played deep into the CFP at both Penn State and Ole Miss. Made nine grabs for 156 yards and a score in playoff win over Georgia. Has trouble beating press and uncovering over the first two levels. Built for contested catches — shows little concern working into traffic on 50/50 throws. Lacks route versatility. Best chance as a possession slot with zone-beating talent. Projected 3rd-5th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Played deep into the CFP at both Penn State and Ole Miss",
+      "Made nine grabs for 156 yards and a score in playoff win over Georgia",
+      "Head fakes create movement from opposing corners",
+      "Good urgency when working zone-beaters from the slot",
+      "Sharpens catch focus when working into traffic",
+      "Plenty of toughness to finish catches through contact",
+      "Climbs the ladder to find high-point positioning",
+    ], concerns: [
+      "Below-average foot quickness to consistently slip press",
+      "Lack of bend causes drift and loss of momentum at turns",
+      "Below-average footwork and burst at break points",
+      "Inconsistent making late course adjustments on deep throws",
+      "Not enough run-after-catch talent",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "CFP performance against Georgia's DB talent is a meaningful data point worth pulling.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -498,7 +525,23 @@ const players = [
     recentStats: "2024: 75 rec · 1,053 yds · 17 TD  |  2025: 51 rec · 1,079 yds · 8 TD",
     industryView: "Fifth-year senior with two seasons of explosive production. Outstanding ball skills and positional instincts that allow him to create catch space. Run-by speed on the FCS level — will need to rely on technique more than gas at the NFL level. Smart player with good ball skills who should compete for a backup role. Projected 3rd-5th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Posted 2,157 receiving yards and 25 scores in the last two seasons",
+      "Real build-up speed as the route progresses vertically",
+      "Good suddenness to stop and present on stop routes",
+      "Footwork and play strength create space at the top of the route",
+      "Intentional with bodying and shielding corners from catch space",
+      "Blue-chip ball-tracking and hand strength to finish deep throws",
+      "Makes athletic adjustments for back-shoulder wins",
+      "Stabs throws outside his frame with sudden, sticky hands",
+    ], concerns: [
+      "Limited exposure to explosive athletes at the FCS level",
+      "Will need to diversify and refine his release against pro press",
+      "Below-average short-area quickness and agility",
+      "Early lean tips off out-breakers and fails to widen windows out of turns",
+      "Struggles to sink hips and quickly snap off comebacks",
+      "Allows the football into his frame as a pass-catcher",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "17 TDs at NDSU + 4.34 speed demands a look. FCS level is the question.", flags: ["🔄 Rewatch Pending","⚠️ Competition Level"],
   },
   {
@@ -541,7 +584,19 @@ const players = [
     recentStats: "2025: 88 rec · 993 yds · 1 TD",
     industryView: "Hard-hat possession receiver with consistent production over three consecutive seasons. Team captain. Shines with natural ball skills, plus catch focus and sure hands in contested situations. Finding separation as a pro will be a challenge — not shifty enough to beat pro press and lacks speed to break free from sticky man coverage. Will find best chance with teams who covet ball skills over separation traits. Projected 3rd-5th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Team captain with steady catch production over three consecutive seasons",
+      "Smooth in his transitions on vertical routes",
+      "Consistent to make the tough catch when challenged",
+      "Tracks the ball and makes adjustments like a pro",
+      "Good feel for utilizing space properly against zone coverage",
+      "Uses sudden, strong hands to quickly pluck and tuck",
+    ], concerns: [
+      "Sluggish takeoff could doom him against NFL press corners",
+      "Unable to back cornerbacks off with the threat of long speed",
+      "Lacks route burst to unstick from sticky man coverage",
+      "Fails to hit a noticeable second gear to run under deep throws",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "88 catches on a bad team is a reliability signal. Only 1 TD on 993 yards is worth investigating.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -550,7 +605,23 @@ const players = [
     recentStats: "2025: 61 rec · 766 yds · 6 TD",
     industryView: "Steady production at SMU. Built for boundary X receiver work but wasn't often tested by quality press or sticky man coverage. Flashes athleticism to run a more robust route tree but technique needs refinement. Above average at tracking and adjusting to 50/50 balls. Underrated YAC option — can slither and slam his way into extra yardage. Needs to prove he can create pro-level throwing windows to settle in as a WR4/5. Projected 3rd-5th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Big game in upset of Miami — 11 catches for 136 yards",
+      "Accurate in tracking and recalibrating downfield course",
+      "Knack for gaining late positioning on jump balls and fades",
+      "Impressive body control makes difficult adjustments look easy",
+      "Hands-catcher with good extension and sudden hands",
+      "Shows ability to become an impactful run blocker",
+      "Combines early elusiveness and plus physicality in run-after-catch",
+      "YAC threat on screens and hitches",
+    ], concerns: [
+      "Lacks sudden feet to slip by press on outside release",
+      "Lets foot off the gas too quickly during the drive phase",
+      "Must prove he can run an expanded route tree",
+      "Deep throws will be contested due to lack of separation speed",
+      "Touchdown opportunities dropped in the end zone",
+      "Inconsistent finishing routes when not the primary read",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "Mid-round projection. Performance at all-star events matters for his stock.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -559,7 +630,17 @@ const players = [
     recentStats: "2024: 47 rec · 823 yds · 5 TD  |  2025: 41 rec · 712 yds · 5 TD",
     industryView: "Showed playmaking ability averaging 18 yards per reception in 2024. Could stand to gain weight and fill out frame for the NFL. Projected 3rd-5th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Elite yards-per-reception efficiency — averaged 18 yards per catch in 2024",
+      "Playmaking ability down the field — not a short-area only receiver",
+      "Consistent producer at Kansas State over multiple seasons",
+      "5 TDs in both 2024 and 2025 — reliable scorer",
+    ], concerns: [
+      "179 lbs — needs to add significant weight to hold up in the NFL",
+      "Frame may not withstand physical press coverage at the next level",
+      "Production numbers modest in absolute terms — volume concern",
+      "Needs to prove he can win consistently after adding weight",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "18 ypr in 2024 is elite efficiency. 179 lbs needs to add weight for the NFL.", flags: ["🔄 Rewatch Pending","⚠️ Size Concern"],
   },
   {
@@ -569,7 +650,20 @@ const players = [
     recentStats: "2024: 39 rec · 672 yds · 4 TD  |  2025: 31 rec · 391 yds · 1 TD",
     industryView: "Field-stretching Z receiver with below-average production but speed to intrigue. Route running needs significant work to uncover against NFL cornerbacks on anything other than deep routes. Below average as a ball-tracker and jump-ball artist but displays good toughness when contested. Kick return potential could buy him time on a practice squad. Projected 3rd-5th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Rips off the line and into high gear on vertical routes",
+      "Very good reacceleration on start-stop route breaks",
+      "Has a history of securing catches through big hits",
+      "Drops both feet in-bounds on most sideline throws",
+      "Slips first tackle on a hitch and quickly gets upfield",
+      "Took a kickoff to the house against Alabama in 2025",
+    ], concerns: [
+      "Relatively sleepy catch production over four seasons",
+      "Leans into breaks and turns, alerting the coverage",
+      "Wasted footwork dooms comebacks and stop routes",
+      "Inconsistent to track and adjust on deep throws",
+      "Gives little help as a run blocker",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "Senior Bowl invite suggests evaluators see more than the raw numbers show.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -579,7 +673,19 @@ const players = [
     recentStats: "2024: 74 rec · 932 yds · 6 TD (MSU)  |  2025: 66 rec · 732 yds · 1 TD (MIZ)",
     industryView: "Slot-only wideout who could use a defined role after playing for four different schools in four years. Has the speed to create opportunities on slot fades and skinny posts. Average route running for a draftable prospect. Lacks ideal size but has adequate hands and toughness in traffic. Punt return ability adds a dimension. Outplayed cornerbacks at Senior Bowl practices. Projected 3rd-5th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Makes use of stacks and rubs in route tempo to uncover",
+      "Builds and maintains leads on posts and over routes",
+      "Adjusts quickly to ball flight and distance as a downfield tracker",
+      "Has hands and toughness for quick-access routes inside",
+      "Outplayed cornerbacks at Senior Bowl practices",
+      "Adequate wiggle and effectiveness after the catch",
+    ], concerns: [
+      "Below-average play strength through press contact",
+      "Rounded in-breakers allow coverage to converge and contest",
+      "Sits in place instead of working aggressively back to throws",
+      "Slot-only profile — four schools in four years",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "Production dropped significantly in the transfer to Mizzou. Size and return versatility are the selling points.", flags: ["🔄 Rewatch Pending","⚠️ Size Concern"],
   },
   {
@@ -588,7 +694,17 @@ const players = [
     recentStats: "2022: 44 rec · 626 yds · 7 TD  |  2023: 23 rec · 383 yds · 1 TD  |  2025: 39 rec · 629 yds · 5 TD (Troy)",
     industryView: "Had buzz in the scouting community but was kicked off the Georgia team in the preseason. Off-the-field concerns are going to hurt throughout the draft process. Projected 4th-6th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Flashed big-play ability at Georgia — 44 catches and 7 TDs in 2022",
+      "Had real buzz in the scouting community before his dismissal",
+      "Showed enough talent to earn a Power 4 starting role",
+      "Productive at Troy in 2025 despite off-field noise",
+    ], concerns: [
+      "Kicked off Georgia roster before the 2024 season — serious character concern",
+      "Off-field background will follow him into every draft room",
+      "Teams will do extensive due diligence before committing any pick",
+      "Multiple-year gap from elite competition complicates evaluation",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "Kicked off Georgia roster — off-field concerns will follow him into every draft room.", flags: ["🔄 Rewatch Pending","⚠️ Character Concern"],
   },
   {
@@ -597,7 +713,17 @@ const players = [
     recentStats: "2025: 57 rec · 705 yds · 6 TD",
     industryView: "Good size for the NFL. Earned a Senior Bowl invitation. If he can show separation against top CBs that could help him rise. Projected 4th-6th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "6'3\" frame provides a size advantage over most slot and press corners",
+      "Earned a Senior Bowl invitation — showed enough to attract evaluator attention",
+      "Steady producer at Texas Tech — 57 catches and 6 TDs in 2025",
+      "Plays in the Big 12 — faces legitimate competition",
+    ], concerns: [
+      "4.57 40 time — below average speed for his size",
+      "187 lbs at 6'3\" is a very lean build that may not hold up in the NFL",
+      "Needs to prove he can create separation against NFL-caliber corners",
+      "Speed and frame both raise questions about his ability to win at the next level",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "6'3\" with Senior Bowl invite. 4.57 and 187 lbs is a lean build that may not hold up.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -606,7 +732,17 @@ const players = [
     recentStats: "2025: 57 rec · 1,054 yds · 6 TD",
     industryView: "Very undersized but dangerous receiver. Had an electric 4.26 combine 40 time. Will have to compete for a slot role. Projected 4th-6th round — 164 lbs is a massive concern.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "4.26 40 time — one of the fastest players in this entire draft class",
+      "Dangerous with the ball — 1,054 yards on 57 catches in 2025",
+      "Electric after the catch given his elite speed",
+      "Legitimate slot threat who can take any touch to the house",
+    ], concerns: [
+      "164 lbs — lightest receiver in this class by a wide margin",
+      "Extreme durability risk — will struggle to absorb contact at the NFL level",
+      "Will have to compete purely as a slot specialist given his size",
+      "Speed alone won't be enough if he can't hold up physically",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "4.26 is elite. 164 lbs is lightest in this class by a wide margin — extreme durability risk.", flags: ["🔄 Rewatch Pending","⚠️ Size Concern"],
   },
   {
@@ -615,7 +751,17 @@ const players = [
     recentStats: "2024: 52 rec · 754 yds · 10 TD  |  2025: 69 rec · 872 yds · 9 TD",
     industryView: "Also a solid punt returner. Consistent producer at Baylor with back-to-back high TD seasons. Projected 4th-6th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Back-to-back double-digit TD seasons — 10 in 2024 and 9 in 2025",
+      "6'2\" and 220 lbs — plus size for the position",
+      "Also a solid punt returner — special teams versatility adds value",
+      "Consistent and productive over multiple seasons at Baylor",
+    ], concerns: [
+      "Big 12 competition level needs to be accounted for",
+      "Didn't face many elite secondaries in college",
+      "Not a separator — production likely driven by scheme and usage",
+      "Return ability may be his most reliable path to a roster spot",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "Back-to-back 9-10 TD seasons with plus size. Return versatility helps value.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -624,7 +770,17 @@ const players = [
     recentStats: "2025: 43 rec · 638 yds · 3 TD",
     industryView: "Has functional size and showed enough for a Senior Bowl invitation. Projected 4th-6th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Senior Bowl invitation — evaluators saw enough to invite him to the showcase",
+      "6'2\" frame with functional size for the NFL",
+      "Steady producer — 43 catches and 638 yards at SMU in 2025",
+      "3 TDs shows red zone capability",
+    ], concerns: [
+      "Modest production numbers — 43 catches is a limited sample",
+      "SMU competition level is a question mark",
+      "Nothing on tape that clearly separates him from the field",
+      "Will have to perform well at all-star events to move up boards",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "Senior Bowl invite signals team interest. Production was modest.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -633,7 +789,17 @@ const players = [
     recentStats: "2022: 37 rec · 466 yds · 5 TD  |  2023: 45 rec · 694 yds · 2 TD  |  2024: 3 rec · 58 yds  |  2025: 58 rec · 545 yds · 4 TD",
     industryView: "Has dealt with injuries — only 3 catches in 2024. Solid build with upside. Showed better in 2025. Was solid at Oklahoma before injuries derailed him. Projected 4th-6th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Showed legitimate ability at Oklahoma — 45 catches for 694 yards in 2023",
+      "Solid build at 6'1\" and 204 lbs",
+      "Bounced back with 58 catches in 2025 after injury-shortened 2024",
+      "Production across multiple programs shows adaptability",
+    ], concerns: [
+      "Only 3 catches in 2024 — significant injury that raises durability questions",
+      "Has now dealt with injuries at multiple stops",
+      "Transferred multiple times — continuity concern",
+      "NFL teams will need to get comfortable with his medical history",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "Injury history in 2024 raises durability questions. Was solid at Oklahoma before injuries.", flags: ["🔄 Rewatch Pending","⚠️ Injury History"],
   },
   {
@@ -642,7 +808,17 @@ const players = [
     recentStats: "2024: 43 rec · 676 yds · 5 TD  |  2025: 52 rec · 762 yds · 5 TD",
     industryView: "Big outside receiver who is put together well and provides a size mismatch. Consistent 5 TDs in both years. Projected 4th-6th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "6'3\" and 211 lbs — legitimate size mismatch for NFL cornerbacks",
+      "Consistent 5 TDs in both 2024 and 2025 — reliable scorer",
+      "Physical build that projects well to the boundary at the next level",
+      "43-52 catch range shows consistent usage and availability",
+    ], concerns: [
+      "Rutgers competition level is a real question mark",
+      "No explosive athletic traits that jump off the tape",
+      "Will need to prove separation ability against NFL-caliber corners",
+      "Size is the primary selling point — needs tape to back it up",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "6'3\", 211 lbs, consistent 5 TDs each year. Rutgers level of competition is the question.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -651,7 +827,17 @@ const players = [
     recentStats: "2025: 26 rec · 380 yds · 6 TD",
     industryView: "Has bounced between programs. 6 TDs on 26 catches in 2025 shows efficiency but very limited sample. Projected 4th-6th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Elite efficiency — 6 TDs on just 26 catches in 2025",
+      "Shows ability to be a red zone and scoring threat despite limited usage",
+      "Has played at multiple Power 4 programs including Alabama",
+      "Compact build with quickness as a slot receiver",
+    ], concerns: [
+      "Only 26 catches — extremely thin sample size in 2025",
+      "Multiple transfers raise character and fit concerns",
+      "5'10\" 182 lbs limits his role at the next level",
+      "Hasn't been consistently used — teams will wonder why",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "6 TDs on 26 catches is elite efficiency but thin sample. Multiple transfers a concern.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -660,7 +846,17 @@ const players = [
     recentStats: "2025: 20 rec · 151 yds · 1 TD",
     industryView: "Dynamic punt and kick returner with return TDs in both 2024 and 2025. With new NFL kickoff rules, could be more valuable as a specialist. Could be a sleeper mid-round pick. Projected 4th-6th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Dynamic punt and kick returner — multiple return TDs in 2024 and 2025",
+      "Under new NFL kickoff rules, his return value is amplified",
+      "Proven special teams contributor who can earn roster spot that way",
+      "Would produce more as a receiver in a pass-heavy offense",
+    ], concerns: [
+      "Only 20 catches in 2025 — not enough offensive production to evaluate fully",
+      "Iowa's run-heavy offense severely limited his exposure as a receiver",
+      "5'9\" 193 lbs limits his role — strictly a slot/returner projection",
+      "Special teams may be his only real path to consistent NFL playing time",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "Special teams value player. 20 catches offensively isn't enough to evaluate him as a receiver alone.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -669,7 +865,17 @@ const players = [
     recentStats: "2024: 39 rec · 574 yds · 8 TD  |  2025: 16 rec · 254 yds · 4 TD",
     industryView: "Tall receiver who presents a size mismatch against cornerbacks. Key question is his ability to separate from NFL DBs. Projected 4th-6th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "6'5\" frame — one of the tallest receivers in this class",
+      "8 TDs in 2024 shows legitimate red zone and scoring ability",
+      "Rare size mismatch that NFL coaches will covet in the red zone",
+      "Clocked a blazing 48.41 in the 400m in high school — elite athleticism",
+    ], concerns: [
+      "Production fell sharply in 2025 — only 16 catches and 4 TDs",
+      "Key question is whether he can create separation from NFL corners",
+      "Size alone won't be enough if he can't get open consistently",
+      "Limited track record at the college level makes projection difficult",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "6'5\" is excellent size. 8 TDs in 2024 encouraging but production fell sharply in 2025.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -678,7 +884,22 @@ const players = [
     recentStats: "2025: 52 rec · 495 yds · 1 TD",
     industryView: "Two-time Tennessee state champion in 100/200m. Three seasons at Kentucky produced 122 catches and a school-record five kickoff return TDs. Transferred to LSU and led Tigers with 53 catches and 532 yards. Career 29.4-yard return average with six return TDs — one shy of the NCAA record. Eats up cushion on vertical routes and tracks deep balls smoothly. Route breaks lack crispness and relies on speed to compensate. Projected 5th-7th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Eats up cushion in a hurry and stacks corners cleanly on vertical routes",
+      "Smooth over-the-shoulder tracking on deep balls without drifting off his line",
+      "Catches a slant and immediately gets north — reads blockers and hits creases with burst",
+      "Six career return touchdowns — one shy of the NCAA record",
+      "Surprises you on the perimeter as a blocker — sustains effort through the whistle",
+      "Real feel on crossers and digs — sits in soft spots and gives QB an easy window",
+      "Competed better on 50/50 balls at LSU — climbed the ladder and finished through contact",
+    ], concerns: [
+      "Gets pushed off his spot at the line by physical corners who get hands on him early",
+      "Traps too many balls against his body instead of extending",
+      "Route breaks lack crispness — rounds off cuts and relies on speed to compensate",
+      "Targeted 87 times as a sophomore and caught fewer than half",
+      "Put the ball on the ground multiple times in 2023 — loose carrying technique",
+      "Looked less explosive after the catch each year — fewer broken tackles as a senior",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "4.40 speed and 5'11\" is fine. Limited production ceiling makes this a late flier at best.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -687,7 +908,23 @@ const players = [
     recentStats: "2025: 54 rec · 547 yds · 2 TD",
     industryView: "Twitchy athlete with explosive short-area quickness. Led Sun Belt with 91 catches for 1,316 yards in 2023 at South Alabama before transferring to Louisville. Technician in his route craft with crisp breaks on short and intermediate routes. Dynamic YAC threat on screens and hitches. Undersized frame limits catch radius and ability to win contested catches. Struggles vs press. Profiles as a Day 3 selection who could outplay his draft position as a slot specialist and return ace. Projected 5th-7th round.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Twitchy athlete with explosive short-area quickness and lateral agility",
+      "Technician in route craft — crisp breaks on short and intermediate patterns",
+      "Vertical threat with long speed to take the top off defenses",
+      "Soft, reliable hands with body control on acrobatic sideline catches",
+      "Dynamic YAC threat on screens and hitches — vision and acceleration in space",
+      "Swiss Army knife — receiver, gadget rusher, and special teams returner",
+      "Adept at reading coverages and finding soft spots in zone",
+      "Iron man durability — rarely missed time in college career",
+      "Led Sun Belt with 91 catches for 1,316 yards in 2023 at South Alabama",
+    ], concerns: [
+      "Undersized frame limits catch radius vs longer, more physical NFL corners",
+      "Struggles to defeat press coverage at the line of scrimmage",
+      "Lacks ideal play strength when working through contact in routes",
+      "Significant liability as a run blocker",
+      "Advanced age — turns 24 during rookie season",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "Limited upside. Benefited from playing alongside Chris Bell drawing coverage.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -696,7 +933,23 @@ const players = [
     recentStats: "2023: 13 rec · 162 yds · 1 TD (ALA)  |  2025: 36 rec · 645 yds · 6 TD (ORE)",
     industryView: "Elite speed — forced safeties to honor his vertical presence on every snap at Oregon. Led Ducks in receiving (719 yds, 6 TD) en route to CFP semifinals. Returned an 85-yard punt for a TD vs USC. Blazing ball tracking on deep throws without breaking pace. Produced at Alabama, Florida State, and Oregon despite personnel changes. Limited blocking ability and thin build are concerns. Best fit as a Z receiver in a vertically oriented offense. Projected 6th round to UDFA.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Blazing top-end speed — forces safeties to honor his vertical presence every snap",
+      "Exceptional ball tracking on deep throws at full speed without breaking pace",
+      "Intermediate and deep route production took a real leap at Oregon",
+      "Catch rate climbed significantly in final season — drops nearly disappeared",
+      "Produced at Alabama, Florida State, and Oregon — adaptable and competitive",
+      "Showed clutch instincts at Oregon — delivered in tight moments consistently",
+      "Returned a punt 85 yards for a TD vs USC — legitimate return threat",
+      "Led Oregon in receiving yards en route to CFP semifinals",
+    ], concerns: [
+      "Run blocking essentially nonexistent on tape",
+      "195 lbs — will struggle vs physical press corners in the run game",
+      "Limited production on short and underneath routes throughout his career",
+      "Not a YAC creator in traffic — linear runner who rarely breaks tackles",
+      "Three FBS programs in three years — modest total target volume at Power Four level",
+      "Contested catch numbers uneven — thin sample against true press coverage",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "4.37 speed is real. Inconsistent production path — JUCO to Alabama depth to Oregon starter.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -705,7 +958,22 @@ const players = [
     recentStats: "2025: 27 rec · 406 yds · 3 TD",
     industryView: "Made Bruce Feldman's Freaks List. Impressive 6'3\" size-speed combo — 23.2 mph top speed, benched close to 300 lbs. Long strider who eats up cushion quickly and threatens vertically. Good body control on contested catches and red zone fades. Route tree still developing with room for improvement in crisp breaks and selling fakes. Concentration drops have been an issue. Shrine Bowl invite. Projects as a developmental X-receiver. Projected 6th round to UDFA.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Made Bruce Feldman Freaks List — topped out at 23.2 mph, bench-pressed close to 300 lbs",
+      "Impressive 6'3\" size-speed combination — matchup problem for smaller DBs",
+      "Long strider who eats up cushion quickly and threatens vertically",
+      "Good body control and adjustment skills tracking deep balls",
+      "Effective using his frame to box out defenders on contested catches and red zone fades",
+      "Versatile — can line up outside and in the slot",
+      "Demonstrates willingness as a blocker using his size to engage smaller DBs",
+      "Track background — 10.39 100m, 21.23 200m at Texas 6A state meet",
+    ], concerns: [
+      "Concentration drops have been an issue throughout his college career",
+      "Can struggle to create separation against physical press coverage",
+      "Route tree still developing — needs crisper breaks and better fake selling",
+      "Lacks elite short-area quickness despite straight-line speed",
+      "After-the-catch ability is limited — often goes down on first contact",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "6'3\" and 4.40 is a combination worth investigating. Bad QB situation may have hidden his ability.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -714,7 +982,17 @@ const players = [
     recentStats: "2024: 10 rec · 105 yds · 1 TD (ALA)  |  2025: 53 rec · 540 yds · 3 TD (UK)",
     industryView: "Transferred from Alabama to Kentucky. Had a decent season for the Wildcats. Projected 7th round to UDFA.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Transferred from Alabama — has been in an elite program environment",
+      "Solid 2025 with 53 catches for 540 yards at Kentucky",
+      "Shows reliability as a target — consistent production when given opportunity",
+      "4.45 speed is adequate for an NFL receiver",
+    ], concerns: [
+      "Couldn't hold a starting role at Alabama — tough evaluation signal",
+      "Kentucky competition level is well below Alabama's",
+      "Nothing in his profile that stands out as an elite NFL trait",
+      "Limited upside — ceiling appears to be a depth piece or practice squad",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "Didn't stick at Alabama. Kentucky production was ok but not a standout.", flags: ["🔄 Rewatch Pending"],
   },
   {
@@ -723,7 +1001,17 @@ const players = [
     recentStats: "2024: 9 rec · 243 yds · 3 TD (27.0 ypc)  |  2025: 7 rec · 55 yds",
     industryView: "Flashed big-play ability in 2024 averaging 27 yards per catch on 9 receptions. Tested well before the draft. Projected 7th round to UDFA.",
     summary: "Personal scouting pending.",
-    strengths: [], concerns: [], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
+    strengths: [
+      "Averaged 27 yards per catch in 2024 on 9 receptions — elite big-play ability",
+      "3 TDs on limited targets — extremely efficient when used",
+      "4.41 speed — above average for his size",
+      "Tested well at the combine — athleticism is real",
+    ], concerns: [
+      "Only 7 catches in 2025 — massive production drop with almost no explanation",
+      "Career sample size is extremely thin — high variance projection",
+      "9 catches in 2024 is too small to draw firm conclusions",
+      "Dart throw at best — needs significant development and opportunity",
+    ], comp: null, stats: { Speed: null, RouteRunning: null, Hands: null, RAC: null },
     notes: "27 yards per catch in 2024 is elite. Massive production drop in 2025. Dart throw.", flags: ["🔄 Rewatch Pending"],
   },
 ];
@@ -1049,13 +1337,13 @@ export default function App() {
           return (
             <div key={p.rank} className={`pr${isOn?" on":""}`}
               onClick={()=>!wasDrafted && setSelected(isOn?null:p.rank)}
-              style={{ display:"grid", gridTemplateColumns:"38px 1fr 60px 68px 60px 80px 40px", padding:"10px 16px", opacity: wasDrafted ? 0.3 : !p.scouted ? 0.6 : 1, background: wasDrafted ? "rgba(239,68,68,0.04)" : undefined }}>
+              style={{ display:"grid", gridTemplateColumns:"38px 1fr 60px 68px 60px 80px 40px", padding:"10px 16px", opacity: wasDrafted ? 0.3 : 1, background: wasDrafted ? "rgba(239,68,68,0.04)" : undefined }}>
               <div style={{ fontFamily:"'Bebas Neue'", fontSize:18, color: wasDrafted?"#ef4444":isOn?"#60a5fa":"#1e3a5f", paddingTop:2, textDecoration: wasDrafted?"line-through":"none" }}>{p.rank}</div>
               <div>
-                <div style={{ fontSize:12, color: wasDrafted?"#475569":isOn?"#f8fafc":p.scouted?"#cbd5e1":"#475569", display:"flex", alignItems:"center", gap:6, textDecoration: wasDrafted?"line-through":"none" }}>
+                <div style={{ fontSize:12, color: wasDrafted?"#475569":isOn?"#f8fafc":"#cbd5e1", display:"flex", alignItems:"center", gap:6, textDecoration: wasDrafted?"line-through":"none" }}>
                   {p.name}
                   {wasDrafted && <span style={{ fontSize:8, color:"#ef4444", letterSpacing:1 }}>DRAFTED</span>}
-                  {!wasDrafted && !p.scouted && <span style={{ fontSize:7, color:"#1e3a5f", letterSpacing:1 }}>PENDING</span>}
+                  {!wasDrafted && !p.scouted && <span style={{ fontSize:8, color:"#0d9488", letterSpacing:1, border:"1px solid rgba(13,148,136,.3)", padding:"1px 5px", borderRadius:2 }}>🔄 REWATCH</span>}
                 </div>
                 <div style={{ fontSize:9, color:"#334155", marginTop:1 }}>{p.school}</div>
                 {!wasDrafted && p.scouted && p.flags.length>0 && <div style={{ marginTop:2, display:"flex", gap:4, flexWrap:"wrap" }}>{p.flags.map(f=><span key={f} style={{ fontSize:8, color:"#78350f" }}>{f}</span>)}</div>}
